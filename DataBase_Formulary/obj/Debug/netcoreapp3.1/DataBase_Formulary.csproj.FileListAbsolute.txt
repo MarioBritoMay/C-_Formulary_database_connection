@@ -1,0 +1,15 @@
+C:\Users\mebri\Documents\GitHub\C#_Formulary_database_connection\C-_Formulary_database_connection\DataBase_Formulary\bin\Debug\netcoreapp3.1\DataBase_Formulary.exe
+C:\Users\mebri\Documents\GitHub\C#_Formulary_database_connection\C-_Formulary_database_connection\DataBase_Formulary\bin\Debug\netcoreapp3.1\DataBase_Formulary.deps.json
+C:\Users\mebri\Documents\GitHub\C#_Formulary_database_connection\C-_Formulary_database_connection\DataBase_Formulary\bin\Debug\netcoreapp3.1\DataBase_Formulary.runtimeconfig.json
+C:\Users\mebri\Documents\GitHub\C#_Formulary_database_connection\C-_Formulary_database_connection\DataBase_Formulary\bin\Debug\netcoreapp3.1\DataBase_Formulary.runtimeconfig.dev.json
+C:\Users\mebri\Documents\GitHub\C#_Formulary_database_connection\C-_Formulary_database_connection\DataBase_Formulary\bin\Debug\netcoreapp3.1\DataBase_Formulary.dll
+C:\Users\mebri\Documents\GitHub\C#_Formulary_database_connection\C-_Formulary_database_connection\DataBase_Formulary\bin\Debug\netcoreapp3.1\DataBase_Formulary.pdb
+C:\Users\mebri\Documents\GitHub\C#_Formulary_database_connection\C-_Formulary_database_connection\DataBase_Formulary\obj\Debug\netcoreapp3.1\DataBase_Formulary.csprojAssemblyReference.cache
+C:\Users\mebri\Documents\GitHub\C#_Formulary_database_connection\C-_Formulary_database_connection\DataBase_Formulary\obj\Debug\netcoreapp3.1\DataBase_Formulary.Form1.resources
+C:\Users\mebri\Documents\GitHub\C#_Formulary_database_connection\C-_Formulary_database_connection\DataBase_Formulary\obj\Debug\netcoreapp3.1\DataBase_Formulary.csproj.GenerateResource.cache
+C:\Users\mebri\Documents\GitHub\C#_Formulary_database_connection\C-_Formulary_database_connection\DataBase_Formulary\obj\Debug\netcoreapp3.1\DataBase_Formulary.AssemblyInfoInputs.cache
+C:\Users\mebri\Documents\GitHub\C#_Formulary_database_connection\C-_Formulary_database_connection\DataBase_Formulary\obj\Debug\netcoreapp3.1\DataBase_Formulary.AssemblyInfo.cs
+C:\Users\mebri\Documents\GitHub\C#_Formulary_database_connection\C-_Formulary_database_connection\DataBase_Formulary\obj\Debug\netcoreapp3.1\DataBase_Formulary.csproj.CoreCompileInputs.cache
+C:\Users\mebri\Documents\GitHub\C#_Formulary_database_connection\C-_Formulary_database_connection\DataBase_Formulary\obj\Debug\netcoreapp3.1\DataBase_Formulary.dll
+C:\Users\mebri\Documents\GitHub\C#_Formulary_database_connection\C-_Formulary_database_connection\DataBase_Formulary\obj\Debug\netcoreapp3.1\DataBase_Formulary.pdb
+C:\Users\mebri\Documents\GitHub\C#_Formulary_database_connection\C-_Formulary_database_connection\DataBase_Formulary\obj\Debug\netcoreapp3.1\DataBase_Formulary.genruntimeconfig.cache
