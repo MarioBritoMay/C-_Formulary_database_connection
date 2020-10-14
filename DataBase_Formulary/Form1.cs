@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,47 +20,34 @@ namespace DataBase_Formulary
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            //necesito conectarme a la base de datos
+            DB_Manager.AbrirConexion("127.0.0.1", "pruebas", "mebrito", "Garumon1996");
         }
 
         private void button1_Click(object sender, EventArgs e)
-        {
+        { 
+            //String fullName = txtNombre.Text;
+            //int edad = int.Parse(txtEdad.Text);
+            //String sex = txtSex.Text;
+            //String address = txtAddress.Text;
+            //String description = txtDescription.Text;
+
+            String insertChain = "INSERT INTO pacientes_2 (nombre, edad, sexo, direccion, descripcion) VALUES ('"+ txtNombre.Text +
+                "', '" + int.Parse(txtEdad.Text) + "','" + txtSex.Text + "','" + txtAddress.Text + "', '" + txtDescription.Text + "')";
+
+            DB_Manager.ConsultaAccion(insertChain);
+            ereaserFiels();
 
         }
 
-        private void label4_Click(object sender, EventArgs e)
+        public void  ereaserFiels()
         {
-
+            txtNombre.Text = "";
+            txtEdad.Text = "";
+            txtSex.Text = "";
+            txtAddress.Text = "";
+            txtDescription.Text = "";
         }
 
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void richTextBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox4_TextChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }
