@@ -41,6 +41,10 @@
             "MySql.Data": {
               "target": "Package",
               "version": "[8.0.21, )"
+            },
+            "itext7": {
+              "target": "Package",
+              "version": "[7.1.12, )"
             }
           },
           "imports": [
