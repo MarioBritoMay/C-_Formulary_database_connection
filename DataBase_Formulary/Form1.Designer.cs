@@ -57,6 +57,7 @@
             this.txtDescription = new System.Windows.Forms.RichTextBox();
             this.txtSex = new System.Windows.Forms.TextBox();
             this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -208,11 +209,19 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
+            // button2
+            // 
+            resources.ApplyResources(this.button2, "button2");
+            this.button2.Name = "button2";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.txtSex);
             this.Controls.Add(this.txtDescription);
@@ -278,6 +287,7 @@
         private System.Windows.Forms.RichTextBox txtDescription;
         private System.Windows.Forms.TextBox txtSex;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button2;
     }
 }
 

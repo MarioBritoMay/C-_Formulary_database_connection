@@ -63,7 +63,7 @@
   </data>
   <assembly alias="System.Drawing.Primitives" name="System.Drawing.Primitives, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="button1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>768, 334</value>
+    <value>768, 346</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="button1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
@@ -89,7 +89,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
-    <value>27</value>
+    <value>28</value>
   </data>
   <data name="label1.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
@@ -119,7 +119,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>26</value>
+    <value>27</value>
   </data>
   <data name="label2.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
@@ -149,7 +149,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>25</value>
+    <value>26</value>
   </data>
   <data name="label4.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
@@ -179,7 +179,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
-    <value>24</value>
+    <value>25</value>
   </data>
   <data name="label5.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
@@ -209,7 +209,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
-    <value>23</value>
+    <value>24</value>
   </data>
   <data name="label6.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
@@ -239,7 +239,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
-    <value>22</value>
+    <value>23</value>
   </data>
   <data name="label7.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
@@ -269,7 +269,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
-    <value>21</value>
+    <value>22</value>
   </data>
   <data name="label8.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
@@ -299,7 +299,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
-    <value>20</value>
+    <value>21</value>
   </data>
   <data name="txtNombre.Location" type="System.Drawing.Point, System.Drawing.Primitives">
     <value>141, 127</value>
@@ -320,7 +320,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;txtNombre.ZOrder" xml:space="preserve">
-    <value>19</value>
+    <value>20</value>
   </data>
   <data name="txtEdad.Location" type="System.Drawing.Point, System.Drawing.Primitives">
     <value>786, 127</value>
@@ -341,7 +341,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;txtEdad.ZOrder" xml:space="preserve">
-    <value>18</value>
+    <value>19</value>
   </data>
   <data name="textBox5.Location" type="System.Drawing.Point, System.Drawing.Primitives">
     <value>786, 70</value>
@@ -362,7 +362,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBox5.ZOrder" xml:space="preserve">
-    <value>17</value>
+    <value>18</value>
   </data>
   <data name="label9.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
@@ -392,7 +392,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>17</value>
   </data>
   <data name="textBox6.Location" type="System.Drawing.Point, System.Drawing.Primitives">
     <value>466, 202</value>
@@ -413,7 +413,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBox6.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>16</value>
   </data>
   <data name="label10.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
@@ -443,7 +443,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>15</value>
   </data>
   <data name="textBox7.Location" type="System.Drawing.Point, System.Drawing.Primitives">
     <value>786, 199</value>
@@ -464,7 +464,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBox7.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>14</value>
   </data>
   <data name="label11.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
@@ -494,7 +494,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>13</value>
   </data>
   <data name="label3.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
@@ -524,7 +524,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>12</value>
   </data>
   <data name="txtAddress.Location" type="System.Drawing.Point, System.Drawing.Primitives">
     <value>141, 255</value>
@@ -545,7 +545,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;txtAddress.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>11</value>
   </data>
   <data name="label12.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
@@ -575,7 +575,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="label13.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
@@ -605,7 +605,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="label14.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
@@ -635,7 +635,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label14.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="label15.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
@@ -665,7 +665,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label15.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="label16.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
@@ -695,7 +695,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label16.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="textBox12.Location" type="System.Drawing.Point, System.Drawing.Primitives">
     <value>786, 255</value>
@@ -716,7 +716,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBox12.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="label17.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
@@ -746,7 +746,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label17.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="txtDescription.Location" type="System.Drawing.Point, System.Drawing.Primitives">
     <value>200, 351</value>
@@ -770,7 +770,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;txtDescription.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="txtSex.Location" type="System.Drawing.Point, System.Drawing.Primitives">
     <value>141, 203</value>
@@ -791,10 +791,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;txtSex.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="button3.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>768, 387</value>
+    <value>768, 399</value>
   </data>
   <data name="button3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
     <value>96, 40</value>
@@ -815,6 +815,30 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>870, 346</value>
+  </data>
+  <data name="button2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>96, 40</value>
+  </data>
+  <data name="button2.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>7</value>
+  </data>
+  <data name="button2.Text" xml:space="preserve">
+    <value>Busqueda</value>
+  </data>
+  <data name="&gt;&gt;button2.Name" xml:space="preserve">
+    <value>button2</value>
+  </data>
+  <data name="&gt;&gt;button2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">

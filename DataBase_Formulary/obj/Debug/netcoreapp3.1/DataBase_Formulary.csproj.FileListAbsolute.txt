@@ -39,3 +39,4 @@ C:\Users\mebri\Documents\GitHub\C#_Formulary_database_connection\C-_Formulary_da
 C:\Users\mebri\Documents\GitHub\C#_Formulary_database_connection\C-_Formulary_database_connection\DataBase_Formulary\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
 C:\Users\mebri\Documents\GitHub\C#_Formulary_database_connection\C-_Formulary_database_connection\DataBase_Formulary\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\mebri\Documents\GitHub\C#_Formulary_database_connection\C-_Formulary_database_connection\DataBase_Formulary\obj\Debug\netcoreapp3.1\DataBase_Formulary.csproj.CoreCompileInputs.cache
+C:\Users\mebri\Documents\GitHub\C#_Formulary_database_connection\C-_Formulary_database_connection\DataBase_Formulary\obj\Debug\netcoreapp3.1\DataBase_Formulary.Form2.resources

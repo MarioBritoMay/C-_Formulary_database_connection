@@ -19,6 +19,7 @@ namespace DataBase_Formulary
 {
     public partial class Form1 : Form
     {
+        public Form2 form2;
         public Form1()
         {
             InitializeComponent();
@@ -32,13 +33,11 @@ namespace DataBase_Formulary
 
         private void button1_Click(object sender, EventArgs e)
         { 
-
             String insertChain = "INSERT INTO pacientes_2 (nombre, edad, sexo, direccion, descripcion) VALUES ('"+ txtNombre.Text +
                 "', '" + int.Parse(txtEdad.Text) + "','" + txtSex.Text + "','" + txtAddress.Text + "', '" + txtDescription.Text + "')";
 
             DB_Manager.ConsultaAccion(insertChain);
             ereaserFiels();
-
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -72,6 +71,13 @@ namespace DataBase_Formulary
             documento.Add(pxInformation);
             documento.Close();
         }
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form2 ventana;
+            ventana = new Form2(this);
+            ventana.Show();
+            this.Hide();
+        }
         public void  ereaserFiels()
         {
             txtNombre.Text = "";
@@ -81,6 +87,6 @@ namespace DataBase_Formulary
             txtDescription.Text = "";
         }
 
-        
+
     }
 }
