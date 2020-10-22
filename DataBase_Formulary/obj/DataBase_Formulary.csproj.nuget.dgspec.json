@@ -37,6 +37,16 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.21, )"
+            },
+            "itext7": {
+              "target": "Package",
+              "version": "[7.1.12, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

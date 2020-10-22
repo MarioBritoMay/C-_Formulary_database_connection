@@ -63,7 +63,7 @@
   </data>
   <assembly alias="System.Drawing.Primitives" name="System.Drawing.Primitives, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="button1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>761, 387</value>
+    <value>768, 334</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="button1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
@@ -77,7 +77,7 @@
     <value>0</value>
   </data>
   <data name="button1.Text" xml:space="preserve">
-    <value>Generar</value>
+    <value>Guardar</value>
   </data>
   <data name="&gt;&gt;button1.Name" xml:space="preserve">
     <value>button1</value>
@@ -89,7 +89,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
-    <value>32</value>
+    <value>27</value>
   </data>
   <data name="label1.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
@@ -119,7 +119,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>31</value>
+    <value>26</value>
   </data>
   <data name="label2.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
@@ -149,7 +149,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>30</value>
+    <value>25</value>
   </data>
   <data name="label4.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
@@ -179,7 +179,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
-    <value>29</value>
+    <value>24</value>
   </data>
   <data name="label5.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
@@ -209,40 +209,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
-    <value>28</value>
-  </data>
-  <data name="checkBox1.AutoSize" type="System.Boolean, System.Private.CoreLib">
-    <value>True</value>
-  </data>
-  <data name="checkBox1.Font" type="System.Drawing.Font, System.Drawing.Common">
-    <value>Segoe UI, 11pt</value>
-  </data>
-  <data name="checkBox1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>130, 207</value>
-  </data>
-  <data name="checkBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="checkBox1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>95, 24</value>
-  </data>
-  <data name="checkBox1.TabIndex" type="System.Int32, System.Private.CoreLib">
-    <value>3</value>
-  </data>
-  <data name="checkBox1.Text" xml:space="preserve">
-    <value>Masculino</value>
-  </data>
-  <data name="&gt;&gt;checkBox1.Name" xml:space="preserve">
-    <value>checkBox1</value>
-  </data>
-  <data name="&gt;&gt;checkBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBox1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;checkBox1.ZOrder" xml:space="preserve">
-    <value>27</value>
+    <value>23</value>
   </data>
   <data name="label6.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
@@ -272,40 +239,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
-    <value>26</value>
-  </data>
-  <data name="checkBox2.AutoSize" type="System.Boolean, System.Private.CoreLib">
-    <value>True</value>
-  </data>
-  <data name="checkBox2.Font" type="System.Drawing.Font, System.Drawing.Common">
-    <value>Segoe UI, 11pt</value>
-  </data>
-  <data name="checkBox2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>242, 206</value>
-  </data>
-  <data name="checkBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="checkBox2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>93, 24</value>
-  </data>
-  <data name="checkBox2.TabIndex" type="System.Int32, System.Private.CoreLib">
-    <value>3</value>
-  </data>
-  <data name="checkBox2.Text" xml:space="preserve">
-    <value>Femenino</value>
-  </data>
-  <data name="&gt;&gt;checkBox2.Name" xml:space="preserve">
-    <value>checkBox2</value>
-  </data>
-  <data name="&gt;&gt;checkBox2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBox2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;checkBox2.ZOrder" xml:space="preserve">
-    <value>25</value>
+    <value>22</value>
   </data>
   <data name="label7.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
@@ -335,7 +269,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
-    <value>24</value>
+    <value>21</value>
   </data>
   <data name="label8.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
@@ -365,91 +299,49 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
-    <value>23</value>
-  </data>
-  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>141, 127</value>
-  </data>
-  <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>155, 27</value>
-  </data>
-  <data name="textBox1.TabIndex" type="System.Int32, System.Private.CoreLib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
-    <value>textBox1</value>
-  </data>
-  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
-    <value>22</value>
-  </data>
-  <data name="textBox2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>490, 127</value>
-  </data>
-  <data name="textBox2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>219, 27</value>
-  </data>
-  <data name="textBox2.TabIndex" type="System.Int32, System.Private.CoreLib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;textBox2.Name" xml:space="preserve">
-    <value>textBox2</value>
-  </data>
-  <data name="&gt;&gt;textBox2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;textBox2.ZOrder" xml:space="preserve">
-    <value>21</value>
-  </data>
-  <data name="textBox3.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>316, 127</value>
-  </data>
-  <data name="textBox3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>155, 27</value>
-  </data>
-  <data name="textBox3.TabIndex" type="System.Int32, System.Private.CoreLib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;textBox3.Name" xml:space="preserve">
-    <value>textBox3</value>
-  </data>
-  <data name="&gt;&gt;textBox3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox3.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;textBox3.ZOrder" xml:space="preserve">
     <value>20</value>
   </data>
-  <data name="textBox4.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>786, 127</value>
+  <data name="txtNombre.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>141, 127</value>
   </data>
-  <data name="textBox4.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>130, 27</value>
+  <data name="txtNombre.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>568, 27</value>
   </data>
-  <data name="textBox4.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="txtNombre.TabIndex" type="System.Int32, System.Private.CoreLib">
     <value>4</value>
   </data>
-  <data name="&gt;&gt;textBox4.Name" xml:space="preserve">
-    <value>textBox4</value>
+  <data name="&gt;&gt;txtNombre.Name" xml:space="preserve">
+    <value>txtNombre</value>
   </data>
-  <data name="&gt;&gt;textBox4.Type" xml:space="preserve">
+  <data name="&gt;&gt;txtNombre.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;textBox4.Parent" xml:space="preserve">
+  <data name="&gt;&gt;txtNombre.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;textBox4.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;txtNombre.ZOrder" xml:space="preserve">
     <value>19</value>
+  </data>
+  <data name="txtEdad.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>786, 127</value>
+  </data>
+  <data name="txtEdad.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>130, 27</value>
+  </data>
+  <data name="txtEdad.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;txtEdad.Name" xml:space="preserve">
+    <value>txtEdad</value>
+  </data>
+  <data name="&gt;&gt;txtEdad.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtEdad.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtEdad.ZOrder" xml:space="preserve">
+    <value>18</value>
   </data>
   <data name="textBox5.Location" type="System.Drawing.Point, System.Drawing.Primitives">
     <value>786, 70</value>
@@ -470,7 +362,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBox5.ZOrder" xml:space="preserve">
-    <value>18</value>
+    <value>17</value>
   </data>
   <data name="label9.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
@@ -500,7 +392,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
-    <value>17</value>
+    <value>16</value>
   </data>
   <data name="textBox6.Location" type="System.Drawing.Point, System.Drawing.Primitives">
     <value>466, 202</value>
@@ -521,7 +413,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBox6.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>15</value>
   </data>
   <data name="label10.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
@@ -551,7 +443,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>14</value>
   </data>
   <data name="textBox7.Location" type="System.Drawing.Point, System.Drawing.Primitives">
     <value>786, 199</value>
@@ -572,7 +464,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBox7.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>13</value>
   </data>
   <data name="label11.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
@@ -602,7 +494,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>12</value>
   </data>
   <data name="label3.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
@@ -632,28 +524,28 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>11</value>
   </data>
-  <data name="textBox8.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="txtAddress.Location" type="System.Drawing.Point, System.Drawing.Primitives">
     <value>141, 255</value>
   </data>
-  <data name="textBox8.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>108, 27</value>
+  <data name="txtAddress.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>568, 27</value>
   </data>
-  <data name="textBox8.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="txtAddress.TabIndex" type="System.Int32, System.Private.CoreLib">
     <value>4</value>
   </data>
-  <data name="&gt;&gt;textBox8.Name" xml:space="preserve">
-    <value>textBox8</value>
+  <data name="&gt;&gt;txtAddress.Name" xml:space="preserve">
+    <value>txtAddress</value>
   </data>
-  <data name="&gt;&gt;textBox8.Type" xml:space="preserve">
+  <data name="&gt;&gt;txtAddress.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;textBox8.Parent" xml:space="preserve">
+  <data name="&gt;&gt;txtAddress.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;textBox8.ZOrder" xml:space="preserve">
-    <value>11</value>
+  <data name="&gt;&gt;txtAddress.ZOrder" xml:space="preserve">
+    <value>10</value>
   </data>
   <data name="label12.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
@@ -683,7 +575,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>9</value>
   </data>
   <data name="label13.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
@@ -713,70 +605,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="textBox9.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>274, 255</value>
-  </data>
-  <data name="textBox9.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>108, 27</value>
-  </data>
-  <data name="textBox9.TabIndex" type="System.Int32, System.Private.CoreLib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;textBox9.Name" xml:space="preserve">
-    <value>textBox9</value>
-  </data>
-  <data name="&gt;&gt;textBox9.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox9.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;textBox9.ZOrder" xml:space="preserve">
     <value>8</value>
-  </data>
-  <data name="textBox10.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>405, 255</value>
-  </data>
-  <data name="textBox10.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>108, 27</value>
-  </data>
-  <data name="textBox10.TabIndex" type="System.Int32, System.Private.CoreLib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;textBox10.Name" xml:space="preserve">
-    <value>textBox10</value>
-  </data>
-  <data name="&gt;&gt;textBox10.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox10.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;textBox10.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="textBox11.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>538, 255</value>
-  </data>
-  <data name="textBox11.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>180, 27</value>
-  </data>
-  <data name="textBox11.TabIndex" type="System.Int32, System.Private.CoreLib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;textBox11.Name" xml:space="preserve">
-    <value>textBox11</value>
-  </data>
-  <data name="&gt;&gt;textBox11.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox11.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;textBox11.ZOrder" xml:space="preserve">
-    <value>6</value>
   </data>
   <data name="label14.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
@@ -806,7 +635,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label14.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>7</value>
   </data>
   <data name="label15.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
@@ -836,7 +665,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label15.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>6</value>
   </data>
   <data name="label16.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
@@ -866,7 +695,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label16.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>5</value>
   </data>
   <data name="textBox12.Location" type="System.Drawing.Point, System.Drawing.Primitives">
     <value>786, 255</value>
@@ -887,7 +716,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBox12.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>4</value>
   </data>
   <data name="label17.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
@@ -917,30 +746,75 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label17.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>3</value>
   </data>
-  <data name="richTextBox1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="txtDescription.Location" type="System.Drawing.Point, System.Drawing.Primitives">
     <value>200, 351</value>
   </data>
-  <data name="richTextBox1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="txtDescription.Size" type="System.Drawing.Size, System.Drawing.Primitives">
     <value>518, 76</value>
   </data>
-  <data name="richTextBox1.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="txtDescription.TabIndex" type="System.Int32, System.Private.CoreLib">
     <value>5</value>
   </data>
-  <data name="richTextBox1.Text" xml:space="preserve">
+  <data name="txtDescription.Text" xml:space="preserve">
     <value />
   </data>
-  <data name="&gt;&gt;richTextBox1.Name" xml:space="preserve">
-    <value>richTextBox1</value>
+  <data name="&gt;&gt;txtDescription.Name" xml:space="preserve">
+    <value>txtDescription</value>
   </data>
-  <data name="&gt;&gt;richTextBox1.Type" xml:space="preserve">
+  <data name="&gt;&gt;txtDescription.Type" xml:space="preserve">
     <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;richTextBox1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;txtDescription.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;richTextBox1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;txtDescription.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txtSex.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>141, 203</value>
+  </data>
+  <data name="txtSex.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>130, 27</value>
+  </data>
+  <data name="txtSex.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;txtSex.Name" xml:space="preserve">
+    <value>txtSex</value>
+  </data>
+  <data name="&gt;&gt;txtSex.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtSex.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtSex.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="button3.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>768, 387</value>
+  </data>
+  <data name="button3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>96, 40</value>
+  </data>
+  <data name="button3.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>6</value>
+  </data>
+  <data name="button3.Text" xml:space="preserve">
+    <value>PDF</value>
+  </data>
+  <data name="&gt;&gt;button3.Name" xml:space="preserve">
+    <value>button3</value>
+  </data>
+  <data name="&gt;&gt;button3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
