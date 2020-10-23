@@ -1,0 +1,49 @@
+//Boton Actualizar 
+    private void button6_Click(object sender, EventArgs e)
+        {
+            string orden = "UPDATE equipos SET nombre= '" + textBox2.Text + "', modelo = '" + textBox3.Text + "', area = '" + comboBox1.Text + "', fabricante= '" + textBox4.Text + "', num_serie = '" + textBox5.Text + "', pais_or= '" + textBox7.Text + "', an_frab= '" + textBox6.Text + "' where id_equipo = '" + textBox1.Text + "'";
+            DB_Manager.ConsultaAccion(orden);
+            actualizar();
+
+        }
+
+//Boton Borrar
+        private void button5_Click(object sender, EventArgs e)
+        {
+
+            //  codigo de messagebox con botones a seleccionar
+            string messageBoxText = "¿Esta seguro que quiere borrar la informacion?";
+            string caption = "Word Processor";
+            MessageBoxButtons button = MessageBoxButtons.YesNoCancel;
+            MessageBoxIcon icon = MessageBoxIcon.Warning;
+
+            DialogResult result = MessageBox.Show(messageBoxText, caption, button, icon);
+            switch (result)
+            {
+                case DialogResult.Yes:
+                    string orden = "UPDATE equipos SET  borrado = '1' where id_equipo = '" + textBox1.Text + "'";
+                    DB_Manager.ConsultaAccion(orden);
+                    actualizar();
+                    break;
+                case DialogResult.No:
+                    break;
+            }
+        }
+
+//Boton Actualizar
+        private void button2_Click(object sender, EventArgs e)
+        {
+            actualizar();
+        }
+
+//funcion actualizar()
+        public void  actualizar()
+        {
+            DB_Manager.ConsultaSeleccion("select  id_equipo as 'ID', nombre as 'Equipo', modelo as 'Modelo', num_serie as 'Número de Serie', fabricante as 'Marca del equipo ', area as 'Ubicación del equipo', an_frab as 'Año de fabricacion', pais_or as 'País de origen' from equipos where borrado=0", dataGridView1);
+        }
+
+//datagrid 
+        private void dataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            this.dataGridView2.DefaultCellStyle.SelectionBackColor = Color.Blue;
+        }

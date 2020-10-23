@@ -343,25 +343,25 @@
   <data name="&gt;&gt;txtEdad.ZOrder" xml:space="preserve">
     <value>19</value>
   </data>
-  <data name="textBox5.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="txtFechaR.Location" type="System.Drawing.Point, System.Drawing.Primitives">
     <value>786, 70</value>
   </data>
-  <data name="textBox5.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="txtFechaR.Size" type="System.Drawing.Size, System.Drawing.Primitives">
     <value>130, 27</value>
   </data>
-  <data name="textBox5.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="txtFechaR.TabIndex" type="System.Int32, System.Private.CoreLib">
     <value>4</value>
   </data>
-  <data name="&gt;&gt;textBox5.Name" xml:space="preserve">
-    <value>textBox5</value>
+  <data name="&gt;&gt;txtFechaR.Name" xml:space="preserve">
+    <value>txtFechaR</value>
   </data>
-  <data name="&gt;&gt;textBox5.Type" xml:space="preserve">
+  <data name="&gt;&gt;txtFechaR.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;textBox5.Parent" xml:space="preserve">
+  <data name="&gt;&gt;txtFechaR.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;textBox5.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;txtFechaR.ZOrder" xml:space="preserve">
     <value>18</value>
   </data>
   <data name="label9.AutoSize" type="System.Boolean, System.Private.CoreLib">
@@ -394,25 +394,25 @@
   <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
     <value>17</value>
   </data>
-  <data name="textBox6.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="txtEstadoCivil.Location" type="System.Drawing.Point, System.Drawing.Primitives">
     <value>466, 202</value>
   </data>
-  <data name="textBox6.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="txtEstadoCivil.Size" type="System.Drawing.Size, System.Drawing.Primitives">
     <value>130, 27</value>
   </data>
-  <data name="textBox6.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="txtEstadoCivil.TabIndex" type="System.Int32, System.Private.CoreLib">
     <value>4</value>
   </data>
-  <data name="&gt;&gt;textBox6.Name" xml:space="preserve">
-    <value>textBox6</value>
+  <data name="&gt;&gt;txtEstadoCivil.Name" xml:space="preserve">
+    <value>txtEstadoCivil</value>
   </data>
-  <data name="&gt;&gt;textBox6.Type" xml:space="preserve">
+  <data name="&gt;&gt;txtEstadoCivil.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;textBox6.Parent" xml:space="preserve">
+  <data name="&gt;&gt;txtEstadoCivil.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;textBox6.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;txtEstadoCivil.ZOrder" xml:space="preserve">
     <value>16</value>
   </data>
   <data name="label10.AutoSize" type="System.Boolean, System.Private.CoreLib">
@@ -445,25 +445,25 @@
   <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
     <value>15</value>
   </data>
-  <data name="textBox7.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="txtFechaN.Location" type="System.Drawing.Point, System.Drawing.Primitives">
     <value>786, 199</value>
   </data>
-  <data name="textBox7.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="txtFechaN.Size" type="System.Drawing.Size, System.Drawing.Primitives">
     <value>130, 27</value>
   </data>
-  <data name="textBox7.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="txtFechaN.TabIndex" type="System.Int32, System.Private.CoreLib">
     <value>4</value>
   </data>
-  <data name="&gt;&gt;textBox7.Name" xml:space="preserve">
-    <value>textBox7</value>
+  <data name="&gt;&gt;txtFechaN.Name" xml:space="preserve">
+    <value>txtFechaN</value>
   </data>
-  <data name="&gt;&gt;textBox7.Type" xml:space="preserve">
+  <data name="&gt;&gt;txtFechaN.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;textBox7.Parent" xml:space="preserve">
+  <data name="&gt;&gt;txtFechaN.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;textBox7.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;txtFechaN.ZOrder" xml:space="preserve">
     <value>14</value>
   </data>
   <data name="label11.AutoSize" type="System.Boolean, System.Private.CoreLib">
@@ -697,25 +697,25 @@
   <data name="&gt;&gt;label16.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="textBox12.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="txtTelefono.Location" type="System.Drawing.Point, System.Drawing.Primitives">
     <value>786, 255</value>
   </data>
-  <data name="textBox12.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="txtTelefono.Size" type="System.Drawing.Size, System.Drawing.Primitives">
     <value>130, 27</value>
   </data>
-  <data name="textBox12.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="txtTelefono.TabIndex" type="System.Int32, System.Private.CoreLib">
     <value>4</value>
   </data>
-  <data name="&gt;&gt;textBox12.Name" xml:space="preserve">
-    <value>textBox12</value>
+  <data name="&gt;&gt;txtTelefono.Name" xml:space="preserve">
+    <value>txtTelefono</value>
   </data>
-  <data name="&gt;&gt;textBox12.Type" xml:space="preserve">
+  <data name="&gt;&gt;txtTelefono.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;textBox12.Parent" xml:space="preserve">
+  <data name="&gt;&gt;txtTelefono.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;textBox12.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;txtTelefono.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
   <data name="label17.AutoSize" type="System.Boolean, System.Private.CoreLib">

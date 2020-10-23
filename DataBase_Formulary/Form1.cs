@@ -33,7 +33,8 @@ namespace DataBase_Formulary
 
         private void button1_Click(object sender, EventArgs e)
         { 
-            String insertChain = "INSERT INTO pacientes_2 (nombre, edad, sexo, direccion, descripcion) VALUES ('"+ txtNombre.Text +
+            String insertChain = "INSERT INTO pacientes_2 (fechaR, nombre, edad, sexo, EC, fechaN, direccion, telefono, descripcion) VALUES" +
+                " ('" + txtNombre.Text + "', '" + txtNombre.Text + "', '" + txtNombre.Text + "', '" + txtNombre.Text + "', '" + txtNombre.Text +
                 "', '" + int.Parse(txtEdad.Text) + "','" + txtSex.Text + "','" + txtAddress.Text + "', '" + txtDescription.Text + "')";
 
             DB_Manager.ConsultaAccion(insertChain);
@@ -48,9 +49,13 @@ namespace DataBase_Formulary
             String sex = "Sexo: " + txtSex.Text + "\n";
             String adds = "Dirección: " + txtAddress.Text + "\n";
             String description = "Causa de cita: " + txtDescription.Text + "\n";
-            PDFCreator(nombre, edad, sex, adds, description);
+            String fechaR = "Fecha de registo: " + txtFechaR.Text + "\n";
+            String fechaN = "Fecha de nacimiento: " + txtFechaN.Text + "\n";
+            String estadoCivil = "Estado Civil: " + txtEstadoCivil.Text + "\n";
+            String telefono = "Telefono: " + txtTelefono.Text + "\n";
+            PDFCreator(nombre, edad, sex, adds, description, fechaR, fechaN, estadoCivil, telefono);
         }
-        private void PDFCreator(String name, String age, String sex, String adds, String description)
+        private void PDFCreator(String name, String age, String sex, String adds, String description, String fR, String fN, String eC, String tel)
         {
 
             //Initialize PDF writer and set the file address
@@ -65,7 +70,7 @@ namespace DataBase_Formulary
             PdfFont fontContend = PdfFontFactory.CreateFont(StandardFonts.TIMES_ROMAN);
             //Document Sections
             var Title = new Paragraph("Historia Clinica de: " + txtNombre.Text + "\n").SetFont(fontTitle);
-            var pxInformation = new Paragraph(name + age + sex + adds + description).SetFont(fontContend); 
+            var pxInformation = new Paragraph(fR + name + age + fN + sex + eC + adds + tel + description).SetFont(fontContend); 
             //Add Sections
             documento.Add(Title);
             documento.Add(pxInformation);

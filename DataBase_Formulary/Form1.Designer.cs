@@ -39,11 +39,11 @@
             this.label8 = new System.Windows.Forms.Label();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.txtEdad = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtFechaR = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txtEstadoCivil = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.txtFechaN = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.txtAddress = new System.Windows.Forms.TextBox();
@@ -52,7 +52,7 @@
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.txtTelefono = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
             this.txtDescription = new System.Windows.Forms.RichTextBox();
             this.txtSex = new System.Windows.Forms.TextBox();
@@ -108,38 +108,43 @@
             // 
             // txtNombre
             // 
+            this.txtNombre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             resources.ApplyResources(this.txtNombre, "txtNombre");
             this.txtNombre.Name = "txtNombre";
             // 
             // txtEdad
             // 
+            this.txtEdad.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             resources.ApplyResources(this.txtEdad, "txtEdad");
             this.txtEdad.Name = "txtEdad";
             // 
-            // textBox5
+            // txtFechaR
             // 
-            resources.ApplyResources(this.textBox5, "textBox5");
-            this.textBox5.Name = "textBox5";
+            this.txtFechaR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            resources.ApplyResources(this.txtFechaR, "txtFechaR");
+            this.txtFechaR.Name = "txtFechaR";
             // 
             // label9
             // 
             resources.ApplyResources(this.label9, "label9");
             this.label9.Name = "label9";
             // 
-            // textBox6
+            // txtEstadoCivil
             // 
-            resources.ApplyResources(this.textBox6, "textBox6");
-            this.textBox6.Name = "textBox6";
+            this.txtEstadoCivil.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            resources.ApplyResources(this.txtEstadoCivil, "txtEstadoCivil");
+            this.txtEstadoCivil.Name = "txtEstadoCivil";
             // 
             // label10
             // 
             resources.ApplyResources(this.label10, "label10");
             this.label10.Name = "label10";
             // 
-            // textBox7
+            // txtFechaN
             // 
-            resources.ApplyResources(this.textBox7, "textBox7");
-            this.textBox7.Name = "textBox7";
+            this.txtFechaN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            resources.ApplyResources(this.txtFechaN, "txtFechaN");
+            this.txtFechaN.Name = "txtFechaN";
             // 
             // label11
             // 
@@ -153,6 +158,7 @@
             // 
             // txtAddress
             // 
+            this.txtAddress.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             resources.ApplyResources(this.txtAddress, "txtAddress");
             this.txtAddress.Name = "txtAddress";
             // 
@@ -181,10 +187,11 @@
             resources.ApplyResources(this.label16, "label16");
             this.label16.Name = "label16";
             // 
-            // textBox12
+            // txtTelefono
             // 
-            resources.ApplyResources(this.textBox12, "textBox12");
-            this.textBox12.Name = "textBox12";
+            this.txtTelefono.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            resources.ApplyResources(this.txtTelefono, "txtTelefono");
+            this.txtTelefono.Name = "txtTelefono";
             // 
             // label17
             // 
@@ -199,6 +206,7 @@
             // 
             // txtSex
             // 
+            this.txtSex.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             resources.ApplyResources(this.txtSex, "txtSex");
             this.txtSex.Name = "txtSex";
             // 
@@ -226,7 +234,7 @@
             this.Controls.Add(this.txtSex);
             this.Controls.Add(this.txtDescription);
             this.Controls.Add(this.label17);
-            this.Controls.Add(this.textBox12);
+            this.Controls.Add(this.txtTelefono);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.label14);
@@ -235,11 +243,11 @@
             this.Controls.Add(this.txtAddress);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label11);
-            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.txtFechaN);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.txtEstadoCivil);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.txtFechaR);
             this.Controls.Add(this.txtEdad);
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.label8);
@@ -269,11 +277,11 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.TextBox txtEdad;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txtFechaR;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txtEstadoCivil;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox txtFechaN;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtAddress;
@@ -282,7 +290,7 @@
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.TextBox txtTelefono;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.RichTextBox txtDescription;
         private System.Windows.Forms.TextBox txtSex;
