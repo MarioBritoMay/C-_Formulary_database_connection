@@ -38,7 +38,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(526, 37);
+            this.button1.Location = new System.Drawing.Point(579, 31);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(93, 29);
             this.button1.TabIndex = 0;
@@ -47,9 +47,9 @@
             // 
             // txtBusqueda
             // 
-            this.txtBusqueda.Location = new System.Drawing.Point(159, 41);
+            this.txtBusqueda.Location = new System.Drawing.Point(57, 37);
             this.txtBusqueda.Name = "txtBusqueda";
-            this.txtBusqueda.Size = new System.Drawing.Size(345, 23);
+            this.txtBusqueda.Size = new System.Drawing.Size(450, 23);
             this.txtBusqueda.TabIndex = 1;
             // 
             // dataGridView1
