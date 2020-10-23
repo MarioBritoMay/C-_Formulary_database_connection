@@ -38,26 +38,28 @@ namespace DataBase_Formulary
                 "', '" + int.Parse(txtEdad.Text) + "','" + txtSex.Text + "','" + txtAddress.Text + "', '" + txtDescription.Text + "')";
 
             DB_Manager.ConsultaAccion(insertChain);
-            ereaserFiels();
+            PDFCreator();
+            ereaserFields();
         }
-
-        private void button3_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form2 ventana;
+            ventana = new Form2(this);
+            ventana.Show();
+            this.Hide();
+        }
+        private void PDFCreator()
         {
             //I use the library itext 7 from NuGet
-            String nombre = "Nombre: " + txtNombre.Text + "\n";
-            String edad = "Edad: " + txtEdad.Text + "\n";
+            String name = "Nombre: " + txtNombre.Text + "\n";
+            String age = "Edad: " + txtEdad.Text + "\n";
             String sex = "Sexo: " + txtSex.Text + "\n";
             String adds = "Dirección: " + txtAddress.Text + "\n";
             String description = "Causa de cita: " + txtDescription.Text + "\n";
-            String fechaR = "Fecha de registo: " + txtFechaR.Text + "\n";
-            String fechaN = "Fecha de nacimiento: " + txtFechaN.Text + "\n";
-            String estadoCivil = "Estado Civil: " + txtEstadoCivil.Text + "\n";
-            String telefono = "Telefono: " + txtTelefono.Text + "\n";
-            PDFCreator(nombre, edad, sex, adds, description, fechaR, fechaN, estadoCivil, telefono);
-        }
-        private void PDFCreator(String name, String age, String sex, String adds, String description, String fR, String fN, String eC, String tel)
-        {
-
+            String registerDate = "Fecha de registo: " + txtFechaR.Text + "\n";
+            String birthDate = "Fecha de nacimiento: " + txtFechaN.Text + "\n";
+            String maritalStatus = "Estado Civil: " + txtEstadoCivil.Text + "\n";
+            String tel = "Telefono: " + txtTelefono.Text + "\n";
             //Initialize PDF writer and set the file address
             PdfWriter pdfwriter = new PdfWriter("C:/Users/mebri/Documents/GitHub/C#_Formulary_database_connection/C-_" +
                                   "Formulary_database_connection/DataBase_Formulary/Reportes/Reporte.pdf");
@@ -70,20 +72,13 @@ namespace DataBase_Formulary
             PdfFont fontContend = PdfFontFactory.CreateFont(StandardFonts.TIMES_ROMAN);
             //Document Sections
             var Title = new Paragraph("Historia Clinica de: " + txtNombre.Text + "\n").SetFont(fontTitle);
-            var pxInformation = new Paragraph(fR + name + age + fN + sex + eC + adds + tel + description).SetFont(fontContend); 
+            var pxInformation = new Paragraph(registerDate + name + age + birthDate + sex + maritalStatus + adds + tel + description).SetFont(fontContend); 
             //Add Sections
             documento.Add(Title);
             documento.Add(pxInformation);
             documento.Close();
         }
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Form2 ventana;
-            ventana = new Form2(this);
-            ventana.Show();
-            this.Hide();
-        }
-        public void  ereaserFiels()
+        public void ereaserFields()
         {
             txtNombre.Text = "";
             txtEdad.Text = "";
