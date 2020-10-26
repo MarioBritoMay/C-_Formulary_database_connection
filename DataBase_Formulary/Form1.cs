@@ -33,9 +33,9 @@ namespace DataBase_Formulary
 
         private void button1_Click(object sender, EventArgs e)
         { 
-            String insertChain = "INSERT INTO pacientes_2 (fechaR, nombre, edad, sexo, EC, fechaN, direccion, telefono, descripcion) VALUES" +
-                " ('" + txtNombre.Text + "', '" + txtNombre.Text + "', '" + txtNombre.Text + "', '" + txtNombre.Text + "', '" + txtNombre.Text +
-                "', '" + int.Parse(txtEdad.Text) + "','" + txtSex.Text + "','" + txtAddress.Text + "', '" + txtDescription.Text + "')";
+            String insertChain = "INSERT INTO pacientes_2 (fechaR, nombre, edad, sexo, EC, fechaN, direccion, telefono, descripcion, Borrado) VALUES" +
+                " ('" + txtFechaR.Text + "', '" + txtNombre.Text + "', '" + int.Parse(txtEdad.Text) + "', '" + txtSex.Text + "', '" + txtEstadoCivil.Text +
+                "', '" + txtFechaN.Text + "','" + txtAddress.Text + "','" + txtTelefono.Text + "', '" + txtDescription.Text +  "', 0)";
 
             DB_Manager.ConsultaAccion(insertChain);
             PDFCreator();
@@ -85,6 +85,10 @@ namespace DataBase_Formulary
             txtSex.Text = "";
             txtAddress.Text = "";
             txtDescription.Text = "";
+            txtFechaR.Text = "";
+            txtFechaN.Text = "";
+            txtEstadoCivil.Text = "";
+            txtTelefono.Text = "";
         }
 
 
