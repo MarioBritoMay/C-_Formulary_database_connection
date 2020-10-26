@@ -61,6 +61,26 @@ namespace DataBase_Formulary
             String description = "Descripción: " + row.Cells[9].Value.ToString() + "\n";
             PDFCreator(name, age, sex, adds, description, registerDate, birthDay, marriegeState, tel);
         }
+        private void button4_Click(object sender, EventArgs e)
+        {
+            //Styled messagebox code
+            string messageBoxText = "¿Esta seguro que quiere borrar la informacion?";
+            string caption = "Word Processor";
+            MessageBoxButtons button = MessageBoxButtons.YesNoCancel;
+            MessageBoxIcon icon = MessageBoxIcon.Warning;
+
+            DialogResult result = MessageBox.Show(messageBoxText, caption, button, icon);
+            switch (result)
+            {
+                case DialogResult.Yes:
+                    string orden = "UPDATE equipos SET  borrado = '1' where id_equipo = '" + dataGridView1.CurrentRow.Cells[0].Value.ToString() + "'";
+                    DB_Manager.ConsultaAccion(orden);
+                    displayData();
+                    break;
+                case DialogResult.No:
+                    break;
+            }
+        }
         //return to form1 button click code
         private void button3_Click(object sender, EventArgs e)
         {
@@ -97,6 +117,13 @@ namespace DataBase_Formulary
             documento.Add(Title);
             documento.Add(pxInformation);
             documento.Close();
+        }
+
+
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
