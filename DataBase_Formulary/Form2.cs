@@ -23,8 +23,10 @@ namespace DataBase_Formulary
 
         private void Form2_Load(object sender, EventArgs e)
         {
-            //necesito conectarme a la base de datos
+            //Connecting to dataBase
             DB_Manager.AbrirConexion("127.0.0.1", "pruebas", "mebrito", "Garumon1996");
+
+
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -36,6 +38,11 @@ namespace DataBase_Formulary
         {
             this.Close();
             form_1.Show();
+        }
+
+        public void displayData()
+        {
+            DB_Manager.ConsultaSeleccion("select  id as 'ID', fechaR as 'Fecha Registro' nombre as 'Nombre', edad as 'Edad', sexo as 'Sexo', EC as 'Estado Civil', fechaN as 'Fecha de nacimiento', direccion as 'Dirección', telefono as 'Tel' descripcion as 'Descripcion' from pacientes_2 where borrado=0", dataGridView1);
         }
     }
 }

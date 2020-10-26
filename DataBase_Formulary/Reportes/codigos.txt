@@ -47,3 +47,7 @@
         {
             this.dataGridView2.DefaultCellStyle.SelectionBackColor = Color.Blue;
         }
+
+//comando para mostrar info en datagrid
+
+DB_Manager.ConsultaSeleccion("select  id_equipo as 'ID', nombre as 'Equipo', modelo as 'Modelo', num_serie as 'Número de Serie', fabricante as 'Marca del equipo ', area as 'Ubicación del equipo', an_frab as 'Año de fabricacion', pais_or as 'País de origen' from equipos where borrado=0", dataGridView1);
