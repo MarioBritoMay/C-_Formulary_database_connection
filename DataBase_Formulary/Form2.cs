@@ -73,7 +73,7 @@ namespace DataBase_Formulary
             switch (result)
             {
                 case DialogResult.Yes:
-                    string orden = "UPDATE equipos SET  borrado = '1' where id_equipo = '" + dataGridView1.CurrentRow.Cells[0].Value.ToString() + "'";
+                    string orden = "UPDATE pacientes_2 SET  borrado = '1' where id = '" + dataGridView1.CurrentRow.Cells[0].Value.ToString() + "'";
                     DB_Manager.ConsultaAccion(orden);
                     displayData();
                     break;
@@ -87,6 +87,24 @@ namespace DataBase_Formulary
             this.Close();
             formulary_1.Show();
         }
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox1.Checked == true)
+            {
+                DB_Manager.ConsultaSeleccion("select  id as 'ID', fechaR as 'Fecha Registro', nombre as 'Nombre', edad as 'Edad', sexo as 'Sexo', EC as 'Estado Civil', fechaN as 'Fecha de nacimiento', direccion as 'Dirección', telefono as 'Tel', descripcion as 'Descripcion' from pacientes_2 where borrado=1", dataGridView1);
+                button4.Enabled = false;
+                button5.Visible = true;
+                button5.Enabled = true;
+            }
+            else
+            {
+                displayData();
+                button4.Enabled = true;
+                button5.Visible = false;
+                button5.Enabled = false;
+            }
+                
+        }
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
@@ -94,6 +112,7 @@ namespace DataBase_Formulary
         //display database in datagridview function
         public void displayData()
         {
+
             DB_Manager.ConsultaSeleccion("select  id as 'ID', fechaR as 'Fecha Registro', nombre as 'Nombre', edad as 'Edad', sexo as 'Sexo', EC as 'Estado Civil', fechaN as 'Fecha de nacimiento', direccion as 'Dirección', telefono as 'Tel', descripcion as 'Descripcion' from pacientes_2 where borrado=0", dataGridView1);
         }
 
@@ -120,10 +139,5 @@ namespace DataBase_Formulary
         }
 
 
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
