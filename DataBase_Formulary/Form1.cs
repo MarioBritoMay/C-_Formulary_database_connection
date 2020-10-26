@@ -27,7 +27,7 @@ namespace DataBase_Formulary
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            //necesito conectarme a la base de datos
+            //Connect to database
             DB_Manager.AbrirConexion("127.0.0.1", "pruebas", "mebrito", "Garumon1996");
         }
 
