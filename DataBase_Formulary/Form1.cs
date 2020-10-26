@@ -57,7 +57,6 @@ namespace DataBase_Formulary
         }
         private void PDFCreator(String name, String age, String sex, String adds, String description, String fR, String fN, String eC, String tel)
         {
-
             //Initialize PDF writer and set the file address
             PdfWriter pdfwriter = new PdfWriter("C:/Users/mebri/Documents/GitHub/C#_Formulary_database_connection/C-_" +
                                   "Formulary_database_connection/DataBase_Formulary/Reportes/Reporte.pdf");
@@ -69,7 +68,7 @@ namespace DataBase_Formulary
             PdfFont fontTitle = PdfFontFactory.CreateFont(StandardFonts.TIMES_BOLD);
             PdfFont fontContend = PdfFontFactory.CreateFont(StandardFonts.TIMES_ROMAN);
             //Document Sections
-            var Title = new Paragraph("Historia Clinica de: " + txtNombre.Text + "\n").SetFont(fontTitle);
+            var Title = new Paragraph("Historia Clinica. \n").SetFont(fontTitle);
             var pxInformation = new Paragraph(fR + name + age + fN + sex + eC + adds + tel + description).SetFont(fontContend); 
             //Add Sections
             documento.Add(Title);

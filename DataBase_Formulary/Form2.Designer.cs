@@ -44,6 +44,7 @@
             this.button1.TabIndex = 0;
             this.button1.Text = "Buscar";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // txtBusqueda
             // 
@@ -51,7 +52,6 @@
             this.txtBusqueda.Name = "txtBusqueda";
             this.txtBusqueda.Size = new System.Drawing.Size(345, 23);
             this.txtBusqueda.TabIndex = 1;
-            this.txtBusqueda.TextChanged += new System.EventHandler(this.txtBusqueda_TextChanged);
             // 
             // dataGridView1
             // 
@@ -64,9 +64,11 @@
             this.dataGridView1.Size = new System.Drawing.Size(629, 262);
             this.dataGridView1.TabIndex = 2;
             this.dataGridView1.Text = "dataGridView1";
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // button2
             // 
+            this.button2.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.button2.Location = new System.Drawing.Point(490, 377);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(93, 29);
@@ -97,6 +99,7 @@
             this.Controls.Add(this.button1);
             this.Name = "Form2";
             this.Text = "Form2";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form2_FormClosed);
             this.Load += new System.EventHandler(this.Form2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
