@@ -61,6 +61,12 @@ namespace DataBase_Formulary
             String description = "Descripción: " + row.Cells[9].Value.ToString() + "\n";
             PDFCreator(name, age, sex, adds, description, registerDate, birthDay, marriegeState, tel);
         }
+        //return to form1 button click code
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            formulary_1.Show();
+        }
         private void button4_Click(object sender, EventArgs e)
         {
             //Styled messagebox code
@@ -81,11 +87,29 @@ namespace DataBase_Formulary
                     break;
             }
         }
-        //return to form1 button click code
-        private void button3_Click(object sender, EventArgs e)
+        private void button5_Click(object sender, EventArgs e)
         {
-            this.Close();
-            formulary_1.Show();
+            //Styled messagebox code
+            string messageBoxText = "¿Esta seguro que quiere restaurar la informacion?";
+            string caption = "Word Processor";
+            MessageBoxButtons button = MessageBoxButtons.YesNoCancel;
+            MessageBoxIcon icon = MessageBoxIcon.Warning;
+
+            DialogResult result = MessageBox.Show(messageBoxText, caption, button, icon);
+            switch (result)
+            {
+                case DialogResult.Yes:
+                    string orden = "UPDATE pacientes_2 SET  borrado = '0' where id = '" + dataGridView1.CurrentRow.Cells[0].Value.ToString() + "'";
+                    DB_Manager.ConsultaAccion(orden);
+                    displayData();
+                    break;
+                case DialogResult.No:
+                    break;
+            }
+        }
+        private void button6_Click(object sender, EventArgs e)
+        {
+
         }
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
@@ -114,6 +138,7 @@ namespace DataBase_Formulary
         {
 
             DB_Manager.ConsultaSeleccion("select  id as 'ID', fechaR as 'Fecha Registro', nombre as 'Nombre', edad as 'Edad', sexo as 'Sexo', EC as 'Estado Civil', fechaN as 'Fecha de nacimiento', direccion as 'Dirección', telefono as 'Tel', descripcion as 'Descripcion' from pacientes_2 where borrado=0", dataGridView1);
+            checkBox1.Checked = false;
         }
 
         //Hay que crear una clase para generar PDF de manera mas eficiente
