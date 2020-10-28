@@ -77,9 +77,8 @@ namespace DataBase_Formulary
         }
         private void button2_Click(object sender, EventArgs e)
         {
-            Form2 ventana;
-            ventana = new Form2(this);
-            ventana.Show();
+            Form2 ventana_2 = new Form2(this);
+            ventana_2.Show();
             this.Hide();
         }
         public void  ereaserFiels()

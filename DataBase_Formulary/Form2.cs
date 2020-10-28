@@ -17,6 +17,8 @@ namespace DataBase_Formulary
     public partial class Form2 : Form
     {
         private Form1 formulary_1;
+
+        public Form3 form3;
         public Form2()
         {
             InitializeComponent();
@@ -109,7 +111,18 @@ namespace DataBase_Formulary
         }
         private void button6_Click(object sender, EventArgs e)
         {
-
+            Form3 ventana_3 = new Form3(this);
+            ventana_3.label9.Text = dataGridView1.CurrentRow.Cells[1].Value.ToString();//id
+            ventana_3.textBox1_F3.Text = dataGridView1.CurrentRow.Cells[2].Value.ToString();//name
+            ventana_3.textBox2_F3.Text = dataGridView1.CurrentRow.Cells[7].Value.ToString();//address
+            ventana_3.textBox3_F3.Text = dataGridView1.CurrentRow.Cells[4].Value.ToString();//sex
+            ventana_3.textBox4_F3.Text = dataGridView1.CurrentRow.Cells[5].Value.ToString();//marriege Status
+            ventana_3.textBox5_F3.Text = dataGridView1.CurrentRow.Cells[6].Value.ToString();//birthday
+            ventana_3.textBox6_F3.Text = dataGridView1.CurrentRow.Cells[8].Value.ToString();//Tel
+            ventana_3.textBox7_F3.Text = dataGridView1.CurrentRow.Cells[3].Value.ToString();//Age
+            ventana_3.richTextBox1_F3.Text = dataGridView1.CurrentRow.Cells[9].Value.ToString();//description
+            ventana_3.Show();
+            this.Hide();
         }
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
