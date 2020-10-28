@@ -112,7 +112,7 @@ namespace DataBase_Formulary
         private void button6_Click(object sender, EventArgs e)
         {
             Form3 ventana_3 = new Form3(this);
-            ventana_3.label9.Text = dataGridView1.CurrentRow.Cells[1].Value.ToString();//id
+            ventana_3.label9.Text = dataGridView1.CurrentRow.Cells[0].Value.ToString();//id
             ventana_3.textBox1_F3.Text = dataGridView1.CurrentRow.Cells[2].Value.ToString();//name
             ventana_3.textBox2_F3.Text = dataGridView1.CurrentRow.Cells[7].Value.ToString();//address
             ventana_3.textBox3_F3.Text = dataGridView1.CurrentRow.Cells[4].Value.ToString();//sex
