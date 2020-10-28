@@ -37,6 +37,10 @@ namespace DataBase_Formulary
             displayData();
 
         }
+        private void Form2_Shown(object sender, EventArgs e)
+        {
+            displayData();
+        }
         //Form closed code
         private void Form2_FormClosed(object sender, FormClosedEventArgs e)
         {
