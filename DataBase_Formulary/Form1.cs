@@ -41,13 +41,6 @@ namespace DataBase_Formulary
             PDFCreator();
             ereaserFields();
         }
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Form2 ventana;
-            ventana = new Form2(this);
-            ventana.Show();
-            this.Hide();
-        }
         private void PDFCreator()
         {
             //I use the library itext 7 from NuGet
@@ -91,6 +84,12 @@ namespace DataBase_Formulary
             txtTelefono.Text = "";
         }
 
-
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            Form2 ventana;
+            ventana = new Form2(this);
+            ventana.Show();
+            this.Hide();
+        }
     }
 }

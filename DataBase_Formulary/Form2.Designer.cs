@@ -42,7 +42,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(579, 31);
+            this.button1.Location = new System.Drawing.Point(31, 37);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(92, 39);
             this.button1.TabIndex = 0;
@@ -52,10 +52,11 @@
             // 
             // txtBusqueda
             // 
-            this.txtBusqueda.Location = new System.Drawing.Point(57, 37);
+            this.txtBusqueda.Location = new System.Drawing.Point(137, 44);
             this.txtBusqueda.Name = "txtBusqueda";
             this.txtBusqueda.Size = new System.Drawing.Size(450, 23);
             this.txtBusqueda.TabIndex = 1;
+            this.txtBusqueda.TextChanged += new System.EventHandler(this.txtBusqueda_TextChanged);
             // 
             // dataGridView1
             // 
@@ -63,9 +64,9 @@
             this.dataGridView1.BackgroundColor = System.Drawing.Color.Linen;
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(31, 99);
+            this.dataGridView1.Location = new System.Drawing.Point(31, 119);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(629, 262);
+            this.dataGridView1.Size = new System.Drawing.Size(656, 262);
             this.dataGridView1.TabIndex = 2;
             this.dataGridView1.Text = "dataGridView1";
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
@@ -73,7 +74,7 @@
             // button2
             // 
             this.button2.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.button2.Location = new System.Drawing.Point(30, 380);
+            this.button2.Location = new System.Drawing.Point(31, 403);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(92, 39);
             this.button2.TabIndex = 0;
@@ -83,7 +84,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(568, 380);
+            this.button3.Location = new System.Drawing.Point(595, 403);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(92, 39);
             this.button3.TabIndex = 3;
@@ -93,7 +94,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(242, 380);
+            this.button4.Location = new System.Drawing.Point(243, 403);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(92, 39);
             this.button4.TabIndex = 4;
@@ -103,7 +104,7 @@
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(136, 380);
+            this.button6.Location = new System.Drawing.Point(137, 403);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(92, 39);
             this.button6.TabIndex = 5;
@@ -114,17 +115,17 @@
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(517, 44);
+            this.checkBox1.Location = new System.Drawing.Point(615, 48);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(143, 19);
+            this.checkBox1.Size = new System.Drawing.Size(95, 19);
             this.checkBox1.TabIndex = 6;
-            this.checkBox1.Text = "Ver Registros Borrados";
+            this.checkBox1.Text = "Ver Borrados.";
             this.checkBox1.UseVisualStyleBackColor = true;
             this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(348, 380);
+            this.button5.Location = new System.Drawing.Point(349, 403);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(92, 39);
             this.button5.TabIndex = 7;
@@ -136,7 +137,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(688, 431);
+            this.ClientSize = new System.Drawing.Size(716, 454);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.button6);

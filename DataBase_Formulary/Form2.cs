@@ -180,6 +180,9 @@ namespace DataBase_Formulary
             documento.Close();
         }
 
+        private void txtBusqueda_TextChanged(object sender, EventArgs e)
+        {
 
+        }
     }
 }
