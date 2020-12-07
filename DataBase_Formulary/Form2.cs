@@ -32,7 +32,8 @@ namespace DataBase_Formulary
         private void Form2_Load(object sender, EventArgs e)
         {
             //Connecting to dataBase
-            DB_Manager.AbrirConexion("127.0.0.1", "pruebas", "mebrito", "Garumon1996");
+            //DB_Manager.AbrirConexion("127.0.0.1", "ClinicaDental", "mebrito", "Garumon1996");
+            DB_Manager.AbrirConexion("127.0.0.1", "ClinicaDental", "Root", "contraseña");
             //Show database info into datagridview1
             displayData();
 
@@ -49,7 +50,7 @@ namespace DataBase_Formulary
         //search button click code
         private void button1_Click(object sender, EventArgs e)
         {
-            string buscar = "select  id as 'ID', fechaR as 'Fecha Registro', nombre as 'Nombre', edad as 'Edad', sexo as 'Sexo', EC as 'Estado Civil', fechaN as 'Fecha de nacimiento', direccion as 'Dirección', telefono as 'Tel', descripcion as 'Descripcion' from pacientes_2 where nombre like '%" + txtBusqueda.Text + "%' and borrado =0";
+            string buscar = "select  id as 'ID', fechaR as 'Fecha Registro', nombre as 'Nombre', edad as 'Edad', sexo as 'Sexo', EC as 'Estado Civil', fechaN as 'Fecha de nacimiento', direccion as 'Dirección', telefono as 'Tel', descripcion as 'Descripcion' from Pacientes where nombre like '%" + txtBusqueda.Text + "%' and borrado =0";
             DB_Manager.ConsultaSeleccion(buscar, dataGridView1);
         }
         //PDF generator button click code
@@ -65,7 +66,8 @@ namespace DataBase_Formulary
             String adds = "Direccion: " + row.Cells[7].Value.ToString() + "\n";
             String tel = "Telefono: " + row.Cells[8].Value.ToString() + "\n";
             String description = "Descripción: " + row.Cells[9].Value.ToString() + "\n";
-            PDFCreator(name, age, sex, adds, description, registerDate, birthDay, marriegeState, tel);
+            String file_Name = row.Cells[2].Value.ToString() + row.Cells[3].Value.ToString();
+            PDFCreator(name, age, sex, adds, description, registerDate, birthDay, marriegeState, tel, file_Name);
         }
         //return to form1 button click code
         private void button3_Click(object sender, EventArgs e)
@@ -85,7 +87,7 @@ namespace DataBase_Formulary
             switch (result)
             {
                 case DialogResult.Yes:
-                    string orden = "UPDATE pacientes_2 SET  borrado = '1' where id = '" + dataGridView1.CurrentRow.Cells[0].Value.ToString() + "'";
+                    string orden = "UPDATE Pacientes SET  borrado = '1' where id = '" + dataGridView1.CurrentRow.Cells[0].Value.ToString() + "'";
                     DB_Manager.ConsultaAccion(orden);
                     displayData();
                     break;
@@ -105,7 +107,7 @@ namespace DataBase_Formulary
             switch (result)
             {
                 case DialogResult.Yes:
-                    string orden = "UPDATE pacientes_2 SET  borrado = '0' where id = '" + dataGridView1.CurrentRow.Cells[0].Value.ToString() + "'";
+                    string orden = "UPDATE Pacientes SET  borrado = '0' where id = '" + dataGridView1.CurrentRow.Cells[0].Value.ToString() + "'";
                     DB_Manager.ConsultaAccion(orden);
                     displayData();
                     break;
@@ -132,7 +134,7 @@ namespace DataBase_Formulary
         {
             if (checkBox1.Checked == true)
             {
-                DB_Manager.ConsultaSeleccion("select  id as 'ID', fechaR as 'Fecha Registro', nombre as 'Nombre', edad as 'Edad', sexo as 'Sexo', EC as 'Estado Civil', fechaN as 'Fecha de nacimiento', direccion as 'Dirección', telefono as 'Tel', descripcion as 'Descripcion' from pacientes_2 where borrado=1", dataGridView1);
+                DB_Manager.ConsultaSeleccion("select  id as 'ID', fechaR as 'Fecha Registro', nombre as 'Nombre', edad as 'Edad', sexo as 'Sexo', EC as 'Estado Civil', fechaN as 'Fecha de nacimiento', direccion as 'Dirección', telefono as 'Tel', descripcion as 'Descripcion' from Pacientes where borrado=1", dataGridView1);
                 button4.Enabled = false;
                 button5.Visible = true;
                 button5.Enabled = true;
@@ -154,16 +156,15 @@ namespace DataBase_Formulary
         public void displayData()
         {
 
-            DB_Manager.ConsultaSeleccion("select  id as 'ID', fechaR as 'Fecha Registro', nombre as 'Nombre', edad as 'Edad', sexo as 'Sexo', EC as 'Estado Civil', fechaN as 'Fecha de nacimiento', direccion as 'Dirección', telefono as 'Tel', descripcion as 'Descripcion' from pacientes_2 where borrado=0", dataGridView1);
+            DB_Manager.ConsultaSeleccion("select  id as 'ID', fechaR as 'Fecha Registro', nombre as 'Nombre', edad as 'Edad', sexo as 'Sexo', EC as 'Estado Civil', fechaN as 'Fecha de nacimiento', direccion as 'Dirección', telefono as 'Tel', descripcion as 'Descripcion' from Pacientes where borrado=0", dataGridView1);
             checkBox1.Checked = false;
         }
 
         //Hay que crear una clase para generar PDF de manera mas eficiente
-        private void PDFCreator(String name, String age, String sex, String adds, String description, String fR, String fN, String eC, String tel)
+        private void PDFCreator(String name, String age, String sex, String adds, String description, String fR, String fN, String eC, String tel, String file_Name)
         {
             //Initialize PDF writer and set the file address
-            PdfWriter pdfwriter = new PdfWriter("C:/Users/mebri/Documents/GitHub/C#_Formulary_database_connection/C-_" +
-                                  "Formulary_database_connection/DataBase_Formulary/Reportes/Reporte.pdf");
+            PdfWriter pdfwriter = new PdfWriter("C:/Users/mebri/Desktop/Reportes/Reporte_" +file_Name+ ".pdf");
             //Initialize PDF document
             PdfDocument pdf = new PdfDocument(pdfwriter);
             Document documento = new Document(pdf, PageSize.LETTER); //I give size to the document

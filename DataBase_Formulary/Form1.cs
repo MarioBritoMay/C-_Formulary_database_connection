@@ -28,50 +28,19 @@ namespace DataBase_Formulary
         private void Form1_Load(object sender, EventArgs e)
         {
             //Connect to database
-            //DB_Manager.AbrirConexion("127.0.0.1", "pruebas", "mebrito", "Garumon1996");
+            //DB_Manager.AbrirConexion("127.0.0.1", "ClinicaDental", "mebrito", "Garumon1996");
+            DB_Manager.AbrirConexion("127.0.0.1", "ClinicaDental", "Root", "contraseña");
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             //Connect to database
-            DB_Manager.AbrirConexion("127.0.0.1", "pruebas", "mebrito", "Garumon1996");
-            String insertChain = "INSERT INTO pacientes_2 (fechaR, nombre, edad, sexo, EC, fechaN, direccion, telefono, descripcion, Borrado) VALUES" +
+            String insertChain = "INSERT INTO Pacientes (fechaR, nombre, edad, sexo, EC, fechaN, direccion, telefono, descripcion, Borrado) VALUES" +
                 " ('" + txtFechaR.Text + "', '" + txtNombre.Text + "', '" + int.Parse(txtEdad.Text) + "', '" + txtSex.Text + "', '" + txtEstadoCivil.Text +
                 "', '" + txtFechaN.Text + "','" + txtAddress.Text + "','" + txtTelefono.Text + "', '" + txtDescription.Text +  "', 0)";
 
             DB_Manager.ConsultaAccion(insertChain);
-            PDFCreator();
             ereaserFields();
-        }
-        private void PDFCreator()
-        {
-            //I use the library itext 7 from NuGet
-            String name = "Nombre: " + txtNombre.Text + "\n";
-            String age = "Edad: " + txtEdad.Text + "\n";
-            String sex = "Sexo: " + txtSex.Text + "\n";
-            String adds = "Dirección: " + txtAddress.Text + "\n";
-            String description = "Causa de cita: " + txtDescription.Text + "\n";
-            String registerDate = "Fecha de registo: " + txtFechaR.Text + "\n";
-            String birthDate = "Fecha de nacimiento: " + txtFechaN.Text + "\n";
-            String maritalStatus = "Estado Civil: " + txtEstadoCivil.Text + "\n";
-            String tel = "Telefono: " + txtTelefono.Text + "\n";
-            //Initialize PDF writer and set the file address
-            PdfWriter pdfwriter = new PdfWriter("C:/Users/mebri/Documents/GitHub/C#_Formulary_database_connection/C-_" +
-                                  "Formulary_database_connection/DataBase_Formulary/Reportes/Reporte.pdf");
-            //Initialize PDF document
-            PdfDocument pdf = new PdfDocument(pdfwriter); 
-            Document documento = new Document(pdf, PageSize.LETTER); //I give size to the document
-            documento.SetMargins(60, 20, 55, 20);//I put a margin to the document (top, rigth, button, left)
-            //Document Fonts
-            PdfFont fontTitle = PdfFontFactory.CreateFont(StandardFonts.TIMES_BOLD);
-            PdfFont fontContend = PdfFontFactory.CreateFont(StandardFonts.TIMES_ROMAN);
-            //Document Sections
-            var Title = new Paragraph("Historia Clinica de: " + txtNombre.Text + "\n").SetFont(fontTitle);
-            var pxInformation = new Paragraph(registerDate + name + age + birthDate + sex + maritalStatus + adds + tel + description).SetFont(fontContend); 
-            //Add Sections
-            documento.Add(Title);
-            documento.Add(pxInformation);
-            documento.Close();
         }
         public void ereaserFields()
         {
