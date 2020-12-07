@@ -28,11 +28,13 @@ namespace DataBase_Formulary
         private void Form1_Load(object sender, EventArgs e)
         {
             //Connect to database
-            DB_Manager.AbrirConexion("127.0.0.1", "pruebas", "mebrito", "Garumon1996");
+            //DB_Manager.AbrirConexion("127.0.0.1", "pruebas", "mebrito", "Garumon1996");
         }
 
         private void button1_Click(object sender, EventArgs e)
-        { 
+        {
+            //Connect to database
+            DB_Manager.AbrirConexion("127.0.0.1", "pruebas", "mebrito", "Garumon1996");
             String insertChain = "INSERT INTO pacientes_2 (fechaR, nombre, edad, sexo, EC, fechaN, direccion, telefono, descripcion, Borrado) VALUES" +
                 " ('" + txtFechaR.Text + "', '" + txtNombre.Text + "', '" + int.Parse(txtEdad.Text) + "', '" + txtSex.Text + "', '" + txtEstadoCivil.Text +
                 "', '" + txtFechaN.Text + "','" + txtAddress.Text + "','" + txtTelefono.Text + "', '" + txtDescription.Text +  "', 0)";
