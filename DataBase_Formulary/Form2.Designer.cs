@@ -151,6 +151,7 @@
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form2_FormClosed);
             this.Load += new System.EventHandler(this.Form2_Load);
             this.Shown += new System.EventHandler(this.Form2_Shown);
+            this.Click += new System.EventHandler(this.Form2_Click);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
