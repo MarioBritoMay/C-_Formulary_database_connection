@@ -28,18 +28,38 @@ namespace DataBase_Formulary
         private void Form1_Load(object sender, EventArgs e)
         {
             //Connect to database
-            //DB_Manager.AbrirConexion("127.0.0.1", "ClinicaDental", "mebrito", "Garumon1996");
-            DB_Manager.AbrirConexion("127.0.0.1", "ClinicaDental", "Root", "contraseña");
+            DB_Manager.AbrirConexion("127.0.0.1", "ClinicaDental", "mebrito", "Garumon1996");
+            //DB_Manager.AbrirConexion("127.0.0.1", "ClinicaDental", "DentalMotul", "contraseña");
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            String ailments = "";
+            //ailments (Embarazo, hipeertension o diabetico)
+            if (checkBox1.Checked == true)
+            {
+                ailments = "Diabetes ";
+            }
+            if (checkBox2.Checked == true)
+            {
+                ailments += "Hipertenso ";
+            }
+            if (checkBox3.Checked == true)
+            {
+                ailments += "Embarazo";
+            }
+
             //Connect to database
-            String insertChain = "INSERT INTO Pacientes (fechaR, nombre, edad, sexo, EC, fechaN, direccion, telefono, descripcion, Borrado) VALUES" +
+            //String insertChain = "INSERT INTO ClinicaDental (fechaR, Nombre, Edad, Sexo, Estado_Civil, FechaN, Direccion, Telefono, Motivo_Consulta, Nombre_Tutor, Telefono_Tutor, alergias, padecimientos, Borrado) VALUES" +
+            //    " ('" + txtFechaR.Text + "', '" + txtNombre.Text + "', '" + int.Parse(txtEdad.Text) + "', '" + txtSex.Text + "', '" + txtEstadoCivil.Text +
+            //    "', '" + txtFechaN.Text + "','" + txtAddress.Text + "','" + txtTelefono.Text + "', '" + txtDescription.Text + "','" + tutorTxtBox.Text + "', '" + tutorTelTxtBox.Text + "', '" + txtAllergies.Text + "', '" + ailments + "', 0)";
+
+            String insertChain = "INSERT INTO pacientes (fechaR, Nombre, Edad, Sexo, Estado_Civil, FechaN, Direccion, Telefono, descripcion, Nombre_Tutor, Telefono_Tutor, alergias, padecimientos, Borrado) VALUES" +
                 " ('" + txtFechaR.Text + "', '" + txtNombre.Text + "', '" + int.Parse(txtEdad.Text) + "', '" + txtSex.Text + "', '" + txtEstadoCivil.Text +
-                "', '" + txtFechaN.Text + "','" + txtAddress.Text + "','" + txtTelefono.Text + "', '" + txtDescription.Text +  "', 0)";
+                "', '" + txtFechaN.Text + "','" + txtAddress.Text + "','" + txtTelefono.Text + "', '" + txtDescription.Text + "','" + tutorTxtBox.Text + "', '" + tutorTelTxtBox.Text + "', '" + txtAllergies.Text + "', '" + ailments + "', 0)";
 
             DB_Manager.ConsultaAccion(insertChain);
+            ailments = "";
             ereaserFields();
         }
         public void ereaserFields()
@@ -53,6 +73,9 @@ namespace DataBase_Formulary
             txtFechaN.Text = "";
             txtEstadoCivil.Text = "";
             txtTelefono.Text = "";
+            tutorTxtBox.Text = "";
+            tutorTelTxtBox.Text = "";
+            txtAllergies.Text = "";
         }
 
         private void button2_Click_1(object sender, EventArgs e)
@@ -61,6 +84,36 @@ namespace DataBase_Formulary
             ventana = new Form2(this);
             ventana.Show();
             this.Hide();
+        }
+
+        private void txtDescription_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label22_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtEdad_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

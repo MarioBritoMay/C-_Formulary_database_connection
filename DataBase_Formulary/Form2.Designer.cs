@@ -56,7 +56,6 @@
             this.txtBusqueda.Name = "txtBusqueda";
             this.txtBusqueda.Size = new System.Drawing.Size(450, 23);
             this.txtBusqueda.TabIndex = 1;
-            this.txtBusqueda.TextChanged += new System.EventHandler(this.txtBusqueda_TextChanged);
             // 
             // dataGridView1
             // 
@@ -100,7 +99,7 @@
             this.button4.TabIndex = 4;
             this.button4.Text = "Borrar Registro.";
             this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.button4.Click += new System.EventHandler(this.button4_Click_1);
             // 
             // button6
             // 
@@ -110,7 +109,7 @@
             this.button6.TabIndex = 5;
             this.button6.Text = "Editar \r\nRegitro.";
             this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.button6.Click += new System.EventHandler(this.button6_Click_1);
             // 
             // checkBox1
             // 
@@ -121,7 +120,7 @@
             this.checkBox1.TabIndex = 6;
             this.checkBox1.Text = "Ver Borrados.";
             this.checkBox1.UseVisualStyleBackColor = true;
-            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged_1);
             // 
             // button5
             // 
@@ -131,7 +130,7 @@
             this.button5.TabIndex = 7;
             this.button5.Text = "Restaurar.";
             this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.button5.Click += new System.EventHandler(this.button5_Click_1);
             // 
             // Form2
             // 
