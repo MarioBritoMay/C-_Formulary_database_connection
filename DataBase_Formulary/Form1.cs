@@ -28,8 +28,8 @@ namespace DataBase_Formulary
         private void Form1_Load(object sender, EventArgs e)
         {
             //Connect to database
-            DB_Manager.AbrirConexion("127.0.0.1", "ClinicaDental", "mebrito", "Garumon1996");
-            //DB_Manager.AbrirConexion("127.0.0.1", "ClinicaDental", "DentalMotul", "contraseña");
+            //DB_Manager.AbrirConexion("127.0.0.1", "ClinicaDental", "mebrito", "Garumon1996");
+            DB_Manager.AbrirConexion("127.0.0.1", "ClinicaDental", "DentalMotul", "contraseña");
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -50,13 +50,13 @@ namespace DataBase_Formulary
             }
 
             //Connect to database
-            //String insertChain = "INSERT INTO ClinicaDental (fechaR, Nombre, Edad, Sexo, Estado_Civil, FechaN, Direccion, Telefono, Motivo_Consulta, Nombre_Tutor, Telefono_Tutor, alergias, padecimientos, Borrado) VALUES" +
-            //    " ('" + txtFechaR.Text + "', '" + txtNombre.Text + "', '" + int.Parse(txtEdad.Text) + "', '" + txtSex.Text + "', '" + txtEstadoCivil.Text +
-            //    "', '" + txtFechaN.Text + "','" + txtAddress.Text + "','" + txtTelefono.Text + "', '" + txtDescription.Text + "','" + tutorTxtBox.Text + "', '" + tutorTelTxtBox.Text + "', '" + txtAllergies.Text + "', '" + ailments + "', 0)";
-
-            String insertChain = "INSERT INTO pacientes (fechaR, Nombre, Edad, Sexo, Estado_Civil, FechaN, Direccion, Telefono, descripcion, Nombre_Tutor, Telefono_Tutor, alergias, padecimientos, Borrado) VALUES" +
+            String insertChain = "INSERT INTO ClinicaDental (fechaR, Nombre, Edad, Sexo, Estado_Civil, FechaN, Direccion, Telefono, Motivo_Consulta, Nombre_Tutor, Telefono_Tutor, alergias, padecimientos, Borrado) VALUES" +
                 " ('" + txtFechaR.Text + "', '" + txtNombre.Text + "', '" + int.Parse(txtEdad.Text) + "', '" + txtSex.Text + "', '" + txtEstadoCivil.Text +
                 "', '" + txtFechaN.Text + "','" + txtAddress.Text + "','" + txtTelefono.Text + "', '" + txtDescription.Text + "','" + tutorTxtBox.Text + "', '" + tutorTelTxtBox.Text + "', '" + txtAllergies.Text + "', '" + ailments + "', 0)";
+
+            //String insertChain = "INSERT INTO pacientes (fechaR, Nombre, Edad, Sexo, Estado_Civil, FechaN, Direccion, Telefono, descripcion, Nombre_Tutor, Telefono_Tutor, alergias, padecimientos, Borrado) VALUES" +
+            //    " ('" + txtFechaR.Text + "', '" + txtNombre.Text + "', '" + int.Parse(txtEdad.Text) + "', '" + txtSex.Text + "', '" + txtEstadoCivil.Text +
+            //    "', '" + txtFechaN.Text + "','" + txtAddress.Text + "','" + txtTelefono.Text + "', '" + txtDescription.Text + "','" + tutorTxtBox.Text + "', '" + tutorTelTxtBox.Text + "', '" + txtAllergies.Text + "', '" + ailments + "', 0)";
 
             DB_Manager.ConsultaAccion(insertChain);
             ailments = "";

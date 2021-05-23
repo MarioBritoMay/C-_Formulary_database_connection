@@ -32,8 +32,8 @@ namespace DataBase_Formulary
         private void Form2_Load(object sender, EventArgs e)
         {
             //Connecting to dataBase
-            DB_Manager.AbrirConexion("127.0.0.1", "ClinicaDental", "mebrito", "Garumon1996");
-            //DB_Manager.AbrirConexion("127.0.0.1", "ClinicaDental", "DentalMotul", "contraseña");
+            //DB_Manager.AbrirConexion("127.0.0.1", "ClinicaDental", "mebrito", "Garumon1996");
+            DB_Manager.AbrirConexion("127.0.0.1", "ClinicaDental", "DentalMotul", "contraseña");
             //Show database info into datagridview1
             displayData();
 
@@ -60,8 +60,8 @@ namespace DataBase_Formulary
         //display database in datagridview function
         public void displayData()
         {
-            //DB_Manager.ConsultaSeleccion("select  id as 'ID', fechaR as 'Fecha Registro', Nombre as 'Nombre', Edad as 'Edad', Sexo as 'Sexo', Estado_Civil as 'Estado Civil', FechaN as 'Fecha de nacimiento', Direccion as 'Dirección', Telefono as 'Tel', Alergias as 'Alergias', Padecimientos as 'Padecimientos', Motivo_Consulta as 'Motivo Consulta', Nombre_Tutor as 'Tutor', Telefono_Tutor as 'Telefono Tutor' from ClinicaDental where Borrado=0", dataGridView1);
-            DB_Manager.ConsultaSeleccion("select  id as 'ID', fechaR as 'Fecha Registro', Nombre as 'Nombre', Edad as 'Edad', Sexo as 'Sexo', Estado_Civil as 'Estado Civil', FechaN as 'Fecha de nacimiento', Direccion as 'Dirección', Telefono as 'Tel', Alergias as 'Alergias', Padecimientos as 'Padecimientos', descripcion as 'Motivo Consulta', Nombre_Tutor as 'Tutor', Telefono_Tutor as 'Telefono Tutor' from pacientes where Borrado=0", dataGridView1);
+            DB_Manager.ConsultaSeleccion("select  id as 'ID', fechaR as 'Fecha Registro', Nombre as 'Nombre', Edad as 'Edad', Sexo as 'Sexo', Estado_Civil as 'Estado Civil', FechaN as 'Fecha de nacimiento', Direccion as 'Dirección', Telefono as 'Tel', Alergias as 'Alergias', Padecimientos as 'Padecimientos', Motivo_Consulta as 'Motivo Consulta', Nombre_Tutor as 'Tutor', Telefono_Tutor as 'Telefono Tutor' from ClinicaDental where Borrado=0", dataGridView1);
+            //DB_Manager.ConsultaSeleccion("select  id as 'ID', fechaR as 'Fecha Registro', Nombre as 'Nombre', Edad as 'Edad', Sexo as 'Sexo', Estado_Civil as 'Estado Civil', FechaN as 'Fecha de nacimiento', Direccion as 'Dirección', Telefono as 'Tel', Alergias as 'Alergias', Padecimientos as 'Padecimientos', descripcion as 'Motivo Consulta', Nombre_Tutor as 'Tutor', Telefono_Tutor as 'Telefono Tutor' from pacientes where Borrado=0", dataGridView1);
             //Reset Checkbox
             checkBox1.Checked = false;
         }
@@ -129,8 +129,8 @@ namespace DataBase_Formulary
             switch (result)
             {
                 case DialogResult.Yes:
-                    //string orden = "UPDATE ClinicaDental SET  borrado = '0' where id = '" + dataGridView1.CurrentRow.Cells[0].Value.ToString() + "'";
-                    string orden = "UPDATE pacientes SET  borrado = '0' where id = '" + dataGridView1.CurrentRow.Cells[0].Value.ToString() + "'";
+                    string orden = "UPDATE ClinicaDental SET  borrado = '0' where id = '" + dataGridView1.CurrentRow.Cells[0].Value.ToString() + "'";
+                    //string orden = "UPDATE pacientes SET  borrado = '0' where id = '" + dataGridView1.CurrentRow.Cells[0].Value.ToString() + "'";
                     DB_Manager.ConsultaAccion(orden);
                     displayData();
                     break;
@@ -151,8 +151,8 @@ namespace DataBase_Formulary
             switch (result)
             {
                 case DialogResult.Yes:
-                    //string orden = "UPDATE ClinicaDental SET  Borrado = '1' where id = '" + dataGridView1.CurrentRow.Cells[0].Value.ToString() + "'";
-                    string orden = "UPDATE pacientes SET  Borrado = '1' where id = '" + dataGridView1.CurrentRow.Cells[0].Value.ToString() + "'";
+                    string orden = "UPDATE ClinicaDental SET  Borrado = '1' where id = '" + dataGridView1.CurrentRow.Cells[0].Value.ToString() + "'";
+                    //string orden = "UPDATE pacientes SET  Borrado = '1' where id = '" + dataGridView1.CurrentRow.Cells[0].Value.ToString() + "'";
                     DB_Manager.ConsultaAccion(orden);
                     displayData();
                     break;
@@ -165,8 +165,8 @@ namespace DataBase_Formulary
         {
             if (checkBox1.Checked == true)
             {
-                // DB_Manager.ConsultaSeleccion("select  id as 'ID', fechaR as 'Fecha Registro', Nombre as 'Nombre', Edad as 'Edad', Sexo as 'Sexo', Estado_Civil as 'Estado Civil', FechaN as 'Fecha de nacimiento', Direccion as 'Dirección', Telefono as 'Tel', Alergias as 'Alergias', Padecimientos as 'Padecimientos', Motivo_Consulta as 'Motivo Consulta', Nombre_Tutor as 'Tutor', Telefono_Tutor as 'Telefono Tutor' from ClinicaDental where Borrado=1", dataGridView1);
-                DB_Manager.ConsultaSeleccion("select  id as 'ID', fechaR as 'Fecha Registro', Nombre as 'Nombre', Edad as 'Edad', Sexo as 'Sexo', Estado_Civil as 'Estado Civil', FechaN as 'Fecha de nacimiento', Direccion as 'Dirección', Telefono as 'Tel', Alergias as 'Alergias', Padecimientos as 'Padecimientos', descripcion as 'Motivo Consulta', Nombre_Tutor as 'Tutor', Telefono_Tutor as 'Telefono Tutor' from pacientes where Borrado=1", dataGridView1);
+                DB_Manager.ConsultaSeleccion("select  id as 'ID', fechaR as 'Fecha Registro', Nombre as 'Nombre', Edad as 'Edad', Sexo as 'Sexo', Estado_Civil as 'Estado Civil', FechaN as 'Fecha de nacimiento', Direccion as 'Dirección', Telefono as 'Tel', Alergias as 'Alergias', Padecimientos as 'Padecimientos', Motivo_Consulta as 'Motivo Consulta', Nombre_Tutor as 'Tutor', Telefono_Tutor as 'Telefono Tutor' from ClinicaDental where Borrado=1", dataGridView1);
+                //DB_Manager.ConsultaSeleccion("select  id as 'ID', fechaR as 'Fecha Registro', Nombre as 'Nombre', Edad as 'Edad', Sexo as 'Sexo', Estado_Civil as 'Estado Civil', FechaN as 'Fecha de nacimiento', Direccion as 'Dirección', Telefono as 'Tel', Alergias as 'Alergias', Padecimientos as 'Padecimientos', descripcion as 'Motivo Consulta', Nombre_Tutor as 'Tutor', Telefono_Tutor as 'Telefono Tutor' from pacientes where Borrado=1", dataGridView1);
                 button4.Enabled = false;
                 button5.Visible = true;
                 button5.Enabled = true;
@@ -182,8 +182,8 @@ namespace DataBase_Formulary
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //string buscar = "select  id as 'ID', fechaR as 'Fecha Registro', Nombre as 'Nombre', Edad as 'Edad', Sexo as 'Sexo',  Estado_Civil as 'Estado Civil', fechaN as 'Fecha de nacimiento', Direccion as 'Dirección', telefono as 'Tel',  Alergias as 'Alergias', Padecimientos as 'Padecimientos', Motivo_Consulta as 'Descripcion' from ClinicaDental where nombre like '%" + txtBusqueda.Text + "%' and borrado =0";
-            string buscar = "select  id as 'ID', fechaR as 'Fecha Registro', Nombre as 'Nombre', Edad as 'Edad', Sexo as 'Sexo',  Estado_Civil as 'Estado Civil', fechaN as 'Fecha de nacimiento', Direccion as 'Dirección', telefono as 'Tel',  Alergias as 'Alergias', Padecimientos as 'Padecimientos', descripcion as 'Descripcion' from Pacientes where nombre like '%" + txtBusqueda.Text + "%' and borrado =0";
+            string buscar = "select  id as 'ID', fechaR as 'Fecha Registro', Nombre as 'Nombre', Edad as 'Edad', Sexo as 'Sexo',  Estado_Civil as 'Estado Civil', fechaN as 'Fecha de nacimiento', Direccion as 'Dirección', telefono as 'Tel',  Alergias as 'Alergias', Padecimientos as 'Padecimientos', Motivo_Consulta as 'Descripcion' from ClinicaDental where nombre like '%" + txtBusqueda.Text + "%' and borrado =0";
+            //string buscar = "select  id as 'ID', fechaR as 'Fecha Registro', Nombre as 'Nombre', Edad as 'Edad', Sexo as 'Sexo',  Estado_Civil as 'Estado Civil', fechaN as 'Fecha de nacimiento', Direccion as 'Dirección', telefono as 'Tel',  Alergias as 'Alergias', Padecimientos as 'Padecimientos', descripcion as 'Descripcion' from Pacientes where nombre like '%" + txtBusqueda.Text + "%' and borrado =0";
             DB_Manager.ConsultaSeleccion(buscar, dataGridView1);
         }
 
@@ -212,8 +212,8 @@ namespace DataBase_Formulary
         private void PDFCreator(int age_1, String name, String age, String sex, String adds, String allergies, String ailments, String description, String fR, String fN, String eC, String tel, String Tutor, String T_Cel, String file_Name)
         {
             //Initialize PDF writer and set the file address
-            //PdfWriter pdfwriter = new PdfWriter("C:/Users/Francisco/Desktop/Reportes/Reporte_" + file_Name + ".pdf");
-            PdfWriter pdfwriter = new PdfWriter("C:/Users/mebri/Desktop/Reportes/Reporte_" + file_Name + ".pdf");
+            PdfWriter pdfwriter = new PdfWriter("C:/Users/Francisco/Desktop/Reportes/Reporte_" + file_Name + ".pdf");
+            //PdfWriter pdfwriter = new PdfWriter("C:/Users/mebri/Desktop/Reportes/Reporte_" + file_Name + ".pdf");
             //Initialize PDF document
             PdfDocument pdf = new PdfDocument(pdfwriter);
             Document documento = new Document(pdf, PageSize.LETTER); //I give size to the document
