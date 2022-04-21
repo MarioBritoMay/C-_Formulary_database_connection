@@ -82,7 +82,6 @@ namespace DataBase_Formulary
 
         private void button2_Click(object sender, EventArgs e)
         {
-
             DataGridViewRow row = dataGridView1.CurrentRow;
             int age_1 = (int)row.Cells[3].Value;
 
@@ -101,7 +100,7 @@ namespace DataBase_Formulary
             String tutor_Tel = "Tutor Tel: " + row.Cells[13].Value.ToString() + "\n";
             String file_Name = row.Cells[2].Value.ToString() + row.Cells[3].Value.ToString();
 
-               PDFCreator(age_1, name, age, sex, adds, allergies, ailnes, description, registerDate, birthDay, marriegeState, tel, tutor, tutor_Tel, file_Name);
+               //PDFCreator(age_1, name, age, sex, adds, allergies, ailnes, description, registerDate, birthDay, marriegeState, tel, tutor, tutor_Tel, file_Name);
         }
 
         private void button6_Click_1(object sender, EventArgs e)
@@ -207,6 +206,11 @@ namespace DataBase_Formulary
             DB_Manager.ConsultaSeleccion(buscar, dataGridView1);
         }
 
+        private void Form2_Click(object sender, EventArgs e)
+        {
+            displayData();
+        }
+
         //Hay que crear una clase para generar PDF de manera mas eficiente
         //private void PDFCreator_1(String name, String age, String sex, String adds, String allergies, String ailments, String description, String fR, String fN, String eC, String tel, String file_Name)
         //{
@@ -228,44 +232,5 @@ namespace DataBase_Formulary
         //    documento.Add(pxInformation);
         //    documento.Close();
         //}
-
-        private void PDFCreator(int age_1, String name, String age, String sex, String adds, String allergies, String ailments, String description, String fR, String fN, String eC, String tel, String Tutor, String T_Cel, String file_Name)
-        {
-            //Initialize PDF writer and set the file address
-#if debugVersion
-            PdfWriter pdfwriter = new PdfWriter("C:/Users/Francisco/Desktop/Reportes/Reporte_" + file_Name + ".pdf");
-#elif realeseVersion
-            PdfWriter pdfwriter = new PdfWriter("C:/Users/mebri/Desktop/Reportes/Reporte_" + file_Name + ".pdf");
-#endif
-            //Initialize PDF document
-            PdfDocument pdf = new PdfDocument(pdfwriter);
-            Document documento = new Document(pdf, PageSize.LETTER); //I give size to the document
-            documento.SetMargins(60, 20, 55, 20);//I put a margin to the document (top, rigth, button, left)
-            //Document Fonts
-            PdfFont fontTitle = PdfFontFactory.CreateFont(StandardFonts.TIMES_BOLD);
-            PdfFont fontContend = PdfFontFactory.CreateFont(StandardFonts.TIMES_ROMAN);
-            //Document Sections
-            var Title = new Paragraph("Historia Clinica. \n").SetFont(fontTitle);
-            if(age_1 >= 18)
-            {
-                var pxInformation = new Paragraph(fR + name + age + fN + sex + eC + adds + tel + allergies + ailments + description).SetFont(fontContend);                //Add Sections
-                documento.Add(Title);
-                documento.Add(pxInformation);
-                documento.Close();
-            }
-            else {
-                var pxInformation = new Paragraph(fR + name + age + fN + Tutor + T_Cel + sex + eC + adds + tel + allergies + ailments + description).SetFont(fontContend);
-                //Add Sections
-                documento.Add(Title);
-                documento.Add(pxInformation);
-                documento.Close();
-            }
-
-        }
-
-        private void Form2_Click(object sender, EventArgs e)
-        {
-            displayData();
-        }
     }
 }
