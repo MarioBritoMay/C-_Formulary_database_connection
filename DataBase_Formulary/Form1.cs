@@ -163,6 +163,8 @@ namespace DataBase_Formulary
                 documento.Close();
             }
 
+
+
         }
 
         public void ereaserFields()
