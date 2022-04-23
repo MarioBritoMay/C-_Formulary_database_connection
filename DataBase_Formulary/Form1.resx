@@ -57,23 +57,22 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing.Common" name="System.Drawing.Common, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51" />
-  <data name="button1.Font" type="System.Drawing.Font, System.Drawing.Common">
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="button1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 11.25pt</value>
   </data>
-  <assembly alias="System.Drawing.Primitives" name="System.Drawing.Primitives, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="button1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
     <value>795, 513</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="button1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 3, 4</value>
   </data>
-  <data name="button1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
     <value>96, 40</value>
   </data>
-  <assembly alias="System.Private.CoreLib" name="System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e" />
-  <data name="button1.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="button1.Text" xml:space="preserve">
@@ -83,7 +82,7 @@
     <value>button1</value>
   </data>
   <data name="&gt;&gt;button1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;button1.Parent" xml:space="preserve">
     <value>$this</value>
@@ -91,19 +90,19 @@
   <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
     <value>40</value>
   </data>
-  <data name="label1.AutoSize" type="System.Boolean, System.Private.CoreLib">
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label1.Font" type="System.Drawing.Font, System.Drawing.Common">
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 15pt, style=Bold</value>
   </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
     <value>427, 21</value>
   </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
     <value>293, 56</value>
   </data>
-  <data name="label1.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
@@ -111,14 +110,14 @@
 Historia clínica Odontológica.
 </value>
   </data>
-  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing.Common">
+  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>TopCenter</value>
   </data>
   <data name="&gt;&gt;label1.Name" xml:space="preserve">
     <value>label1</value>
   </data>
   <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label1.Parent" xml:space="preserve">
     <value>$this</value>
@@ -126,19 +125,19 @@ Historia clínica Odontológica.
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
     <value>39</value>
   </data>
-  <data name="label2.AutoSize" type="System.Boolean, System.Private.CoreLib">
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label2.Font" type="System.Drawing.Font, System.Drawing.Common">
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI Semibold, 11.25pt, style=Bold</value>
   </data>
-  <data name="label2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>21, 168</value>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 136</value>
   </data>
-  <data name="label2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
     <value>70, 20</value>
   </data>
-  <data name="label2.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
@@ -148,7 +147,7 @@ Historia clínica Odontológica.
     <value>label2</value>
   </data>
   <data name="&gt;&gt;label2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label2.Parent" xml:space="preserve">
     <value>$this</value>
@@ -156,19 +155,19 @@ Historia clínica Odontológica.
   <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
     <value>38</value>
   </data>
-  <data name="label4.AutoSize" type="System.Boolean, System.Private.CoreLib">
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label4.Font" type="System.Drawing.Font, System.Drawing.Common">
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9pt</value>
   </data>
-  <data name="label4.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>223, 193</value>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 161</value>
   </data>
-  <data name="label4.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
     <value>99, 15</value>
   </data>
-  <data name="label4.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
@@ -178,7 +177,7 @@ Historia clínica Odontológica.
     <value>label4</value>
   </data>
   <data name="&gt;&gt;label4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label4.Parent" xml:space="preserve">
     <value>$this</value>
@@ -186,19 +185,19 @@ Historia clínica Odontológica.
   <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
     <value>37</value>
   </data>
-  <data name="label5.AutoSize" type="System.Boolean, System.Private.CoreLib">
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label5.Font" type="System.Drawing.Font, System.Drawing.Common">
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI Semibold, 11.25pt, style=Bold</value>
   </data>
-  <data name="label5.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>538, 168</value>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>538, 136</value>
   </data>
-  <data name="label5.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
     <value>47, 20</value>
   </data>
-  <data name="label5.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
@@ -208,7 +207,7 @@ Historia clínica Odontológica.
     <value>label5</value>
   </data>
   <data name="&gt;&gt;label5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label5.Parent" xml:space="preserve">
     <value>$this</value>
@@ -216,19 +215,19 @@ Historia clínica Odontológica.
   <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
     <value>36</value>
   </data>
-  <data name="label6.AutoSize" type="System.Boolean, System.Private.CoreLib">
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label6.Font" type="System.Drawing.Font, System.Drawing.Common">
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI Semibold, 11.25pt, style=Bold</value>
   </data>
-  <data name="label6.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>642, 168</value>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>642, 136</value>
   </data>
-  <data name="label6.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
     <value>63, 20</value>
   </data>
-  <data name="label6.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
@@ -238,7 +237,7 @@ Historia clínica Odontológica.
     <value>label6</value>
   </data>
   <data name="&gt;&gt;label6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label6.Parent" xml:space="preserve">
     <value>$this</value>
@@ -246,19 +245,19 @@ Historia clínica Odontológica.
   <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
     <value>35</value>
   </data>
-  <data name="label7.AutoSize" type="System.Boolean, System.Private.CoreLib">
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label7.Font" type="System.Drawing.Font, System.Drawing.Common">
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI Semibold, 11.25pt, style=Bold</value>
   </data>
-  <data name="label7.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>21, 334</value>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 345</value>
   </data>
-  <data name="label7.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
     <value>53, 20</value>
   </data>
-  <data name="label7.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
@@ -268,7 +267,7 @@ Historia clínica Odontológica.
     <value>label7</value>
   </data>
   <data name="&gt;&gt;label7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label7.Parent" xml:space="preserve">
     <value>$this</value>
@@ -276,19 +275,19 @@ Historia clínica Odontológica.
   <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
     <value>34</value>
   </data>
-  <data name="label8.AutoSize" type="System.Boolean, System.Private.CoreLib">
+  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label8.Font" type="System.Drawing.Font, System.Drawing.Common">
+  <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9pt</value>
   </data>
-  <data name="label8.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>352, 193</value>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>352, 161</value>
   </data>
-  <data name="label8.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
     <value>67, 15</value>
   </data>
-  <data name="label8.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
@@ -298,7 +297,7 @@ Historia clínica Odontológica.
     <value>label8</value>
   </data>
   <data name="&gt;&gt;label8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label8.Parent" xml:space="preserve">
     <value>$this</value>
@@ -306,20 +305,20 @@ Historia clínica Odontológica.
   <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
     <value>33</value>
   </data>
-  <data name="txtNombre.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>97, 164</value>
+  <data name="txtNombre.Location" type="System.Drawing.Point, System.Drawing">
+    <value>97, 132</value>
   </data>
-  <data name="txtNombre.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="txtNombre.Size" type="System.Drawing.Size, System.Drawing">
     <value>435, 27</value>
   </data>
-  <data name="txtNombre.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="txtNombre.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
   <data name="&gt;&gt;txtNombre.Name" xml:space="preserve">
     <value>txtNombre</value>
   </data>
   <data name="&gt;&gt;txtNombre.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;txtNombre.Parent" xml:space="preserve">
     <value>$this</value>
@@ -327,20 +326,20 @@ Historia clínica Odontológica.
   <data name="&gt;&gt;txtNombre.ZOrder" xml:space="preserve">
     <value>32</value>
   </data>
-  <data name="txtEdad.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>591, 164</value>
+  <data name="txtEdad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>591, 132</value>
   </data>
-  <data name="txtEdad.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="txtEdad.Size" type="System.Drawing.Size, System.Drawing">
     <value>45, 27</value>
   </data>
-  <data name="txtEdad.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="txtEdad.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
   <data name="&gt;&gt;txtEdad.Name" xml:space="preserve">
     <value>txtEdad</value>
   </data>
   <data name="&gt;&gt;txtEdad.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;txtEdad.Parent" xml:space="preserve">
     <value>$this</value>
@@ -348,20 +347,20 @@ Historia clínica Odontológica.
   <data name="&gt;&gt;txtEdad.ZOrder" xml:space="preserve">
     <value>31</value>
   </data>
-  <data name="txtFechaR.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>97, 331</value>
+  <data name="txtFechaR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>97, 342</value>
   </data>
-  <data name="txtFechaR.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="txtFechaR.Size" type="System.Drawing.Size, System.Drawing">
     <value>143, 27</value>
   </data>
-  <data name="txtFechaR.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="txtFechaR.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
   <data name="&gt;&gt;txtFechaR.Name" xml:space="preserve">
     <value>txtFechaR</value>
   </data>
   <data name="&gt;&gt;txtFechaR.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;txtFechaR.Parent" xml:space="preserve">
     <value>$this</value>
@@ -369,19 +368,19 @@ Historia clínica Odontológica.
   <data name="&gt;&gt;txtFechaR.ZOrder" xml:space="preserve">
     <value>30</value>
   </data>
-  <data name="label9.AutoSize" type="System.Boolean, System.Private.CoreLib">
+  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label9.Font" type="System.Drawing.Font, System.Drawing.Common">
+  <data name="label9.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI Semibold, 11.25pt, style=Bold</value>
   </data>
-  <data name="label9.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>806, 168</value>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>806, 136</value>
   </data>
-  <data name="label9.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
     <value>91, 20</value>
   </data>
-  <data name="label9.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="label9.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
@@ -391,7 +390,7 @@ Historia clínica Odontológica.
     <value>label9</value>
   </data>
   <data name="&gt;&gt;label9.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label9.Parent" xml:space="preserve">
     <value>$this</value>
@@ -399,20 +398,20 @@ Historia clínica Odontológica.
   <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
     <value>29</value>
   </data>
-  <data name="txtEstadoCivil.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>903, 164</value>
+  <data name="txtEstadoCivil.Location" type="System.Drawing.Point, System.Drawing">
+    <value>903, 132</value>
   </data>
-  <data name="txtEstadoCivil.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="txtEstadoCivil.Size" type="System.Drawing.Size, System.Drawing">
     <value>118, 27</value>
   </data>
-  <data name="txtEstadoCivil.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="txtEstadoCivil.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
   <data name="&gt;&gt;txtEstadoCivil.Name" xml:space="preserve">
     <value>txtEstadoCivil</value>
   </data>
   <data name="&gt;&gt;txtEstadoCivil.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;txtEstadoCivil.Parent" xml:space="preserve">
     <value>$this</value>
@@ -420,19 +419,19 @@ Historia clínica Odontológica.
   <data name="&gt;&gt;txtEstadoCivil.ZOrder" xml:space="preserve">
     <value>28</value>
   </data>
-  <data name="label10.AutoSize" type="System.Boolean, System.Private.CoreLib">
+  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label10.Font" type="System.Drawing.Font, System.Drawing.Common">
+  <data name="label10.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI Semibold, 11.25pt, style=Bold</value>
   </data>
-  <data name="label10.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>538, 253</value>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>538, 193</value>
   </data>
-  <data name="label10.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
     <value>147, 20</value>
   </data>
-  <data name="label10.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="label10.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="label10.Text" xml:space="preserve">
@@ -442,7 +441,7 @@ Historia clínica Odontológica.
     <value>label10</value>
   </data>
   <data name="&gt;&gt;label10.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label10.Parent" xml:space="preserve">
     <value>$this</value>
@@ -450,20 +449,20 @@ Historia clínica Odontológica.
   <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
     <value>27</value>
   </data>
-  <data name="txtFechaN.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>691, 250</value>
+  <data name="txtFechaN.Location" type="System.Drawing.Point, System.Drawing">
+    <value>691, 190</value>
   </data>
-  <data name="txtFechaN.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="txtFechaN.Size" type="System.Drawing.Size, System.Drawing">
     <value>143, 27</value>
   </data>
-  <data name="txtFechaN.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="txtFechaN.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
   <data name="&gt;&gt;txtFechaN.Name" xml:space="preserve">
     <value>txtFechaN</value>
   </data>
   <data name="&gt;&gt;txtFechaN.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;txtFechaN.Parent" xml:space="preserve">
     <value>$this</value>
@@ -471,19 +470,19 @@ Historia clínica Odontológica.
   <data name="&gt;&gt;txtFechaN.ZOrder" xml:space="preserve">
     <value>26</value>
   </data>
-  <data name="label11.AutoSize" type="System.Boolean, System.Private.CoreLib">
+  <data name="label11.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label11.Font" type="System.Drawing.Font, System.Drawing.Common">
+  <data name="label11.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI Semibold, 11.25pt, style=Bold</value>
   </data>
-  <data name="label11.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>21, 257</value>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 197</value>
   </data>
-  <data name="label11.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
     <value>78, 20</value>
   </data>
-  <data name="label11.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="label11.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="label11.Text" xml:space="preserve">
@@ -493,7 +492,7 @@ Historia clínica Odontológica.
     <value>label11</value>
   </data>
   <data name="&gt;&gt;label11.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label11.Parent" xml:space="preserve">
     <value>$this</value>
@@ -501,19 +500,19 @@ Historia clínica Odontológica.
   <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
     <value>25</value>
   </data>
-  <data name="label3.AutoSize" type="System.Boolean, System.Private.CoreLib">
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label3.Font" type="System.Drawing.Font, System.Drawing.Common">
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9pt</value>
   </data>
-  <data name="label3.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>112, 193</value>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 161</value>
   </data>
-  <data name="label3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
     <value>95, 15</value>
   </data>
-  <data name="label3.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
@@ -523,7 +522,7 @@ Historia clínica Odontológica.
     <value>label3</value>
   </data>
   <data name="&gt;&gt;label3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label3.Parent" xml:space="preserve">
     <value>$this</value>
@@ -531,20 +530,20 @@ Historia clínica Odontológica.
   <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
     <value>24</value>
   </data>
-  <data name="txtAddress.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>97, 250</value>
+  <data name="txtAddress.Location" type="System.Drawing.Point, System.Drawing">
+    <value>97, 190</value>
   </data>
-  <data name="txtAddress.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="txtAddress.Size" type="System.Drawing.Size, System.Drawing">
     <value>435, 27</value>
   </data>
-  <data name="txtAddress.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="txtAddress.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
   <data name="&gt;&gt;txtAddress.Name" xml:space="preserve">
     <value>txtAddress</value>
   </data>
   <data name="&gt;&gt;txtAddress.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;txtAddress.Parent" xml:space="preserve">
     <value>$this</value>
@@ -552,19 +551,19 @@ Historia clínica Odontológica.
   <data name="&gt;&gt;txtAddress.ZOrder" xml:space="preserve">
     <value>23</value>
   </data>
-  <data name="label12.AutoSize" type="System.Boolean, System.Private.CoreLib">
+  <data name="label12.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label12.Font" type="System.Drawing.Font, System.Drawing.Common">
+  <data name="label12.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9pt</value>
   </data>
-  <data name="label12.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>113, 284</value>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 224</value>
   </data>
-  <data name="label12.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
     <value>33, 15</value>
   </data>
-  <data name="label12.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="label12.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="label12.Text" xml:space="preserve">
@@ -574,7 +573,7 @@ Historia clínica Odontológica.
     <value>label12</value>
   </data>
   <data name="&gt;&gt;label12.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label12.Parent" xml:space="preserve">
     <value>$this</value>
@@ -582,19 +581,19 @@ Historia clínica Odontológica.
   <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
     <value>22</value>
   </data>
-  <data name="label13.AutoSize" type="System.Boolean, System.Private.CoreLib">
+  <data name="label13.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label13.Font" type="System.Drawing.Font, System.Drawing.Common">
+  <data name="label13.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9pt</value>
   </data>
-  <data name="label13.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>178, 284</value>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>178, 224</value>
   </data>
-  <data name="label13.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
     <value>51, 15</value>
   </data>
-  <data name="label13.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="label13.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="label13.Text" xml:space="preserve">
@@ -604,7 +603,7 @@ Historia clínica Odontológica.
     <value>label13</value>
   </data>
   <data name="&gt;&gt;label13.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label13.Parent" xml:space="preserve">
     <value>$this</value>
@@ -612,19 +611,19 @@ Historia clínica Odontológica.
   <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
     <value>21</value>
   </data>
-  <data name="label14.AutoSize" type="System.Boolean, System.Private.CoreLib">
+  <data name="label14.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label14.Font" type="System.Drawing.Font, System.Drawing.Common">
+  <data name="label14.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9pt</value>
   </data>
-  <data name="label14.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>382, 284</value>
+  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>382, 224</value>
   </data>
-  <data name="label14.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
     <value>48, 15</value>
   </data>
-  <data name="label14.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="label14.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="label14.Text" xml:space="preserve">
@@ -634,7 +633,7 @@ Historia clínica Odontológica.
     <value>label14</value>
   </data>
   <data name="&gt;&gt;label14.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label14.Parent" xml:space="preserve">
     <value>$this</value>
@@ -642,19 +641,19 @@ Historia clínica Odontológica.
   <data name="&gt;&gt;label14.ZOrder" xml:space="preserve">
     <value>20</value>
   </data>
-  <data name="label15.AutoSize" type="System.Boolean, System.Private.CoreLib">
+  <data name="label15.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label15.Font" type="System.Drawing.Font, System.Drawing.Common">
+  <data name="label15.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9pt</value>
   </data>
-  <data name="label15.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>263, 284</value>
+  <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 224</value>
   </data>
-  <data name="label15.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
     <value>80, 15</value>
   </data>
-  <data name="label15.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="label15.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="label15.Text" xml:space="preserve">
@@ -664,7 +663,7 @@ Historia clínica Odontológica.
     <value>label15</value>
   </data>
   <data name="&gt;&gt;label15.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label15.Parent" xml:space="preserve">
     <value>$this</value>
@@ -672,19 +671,19 @@ Historia clínica Odontológica.
   <data name="&gt;&gt;label15.ZOrder" xml:space="preserve">
     <value>19</value>
   </data>
-  <data name="label16.AutoSize" type="System.Boolean, System.Private.CoreLib">
+  <data name="label16.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label16.Font" type="System.Drawing.Font, System.Drawing.Common">
+  <data name="label16.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI Semibold, 11.25pt, style=Bold</value>
   </data>
-  <data name="label16.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>840, 253</value>
+  <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>840, 193</value>
   </data>
-  <data name="label16.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
     <value>32, 20</value>
   </data>
-  <data name="label16.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="label16.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="label16.Text" xml:space="preserve">
@@ -694,7 +693,7 @@ Historia clínica Odontológica.
     <value>label16</value>
   </data>
   <data name="&gt;&gt;label16.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label16.Parent" xml:space="preserve">
     <value>$this</value>
@@ -702,20 +701,20 @@ Historia clínica Odontológica.
   <data name="&gt;&gt;label16.ZOrder" xml:space="preserve">
     <value>18</value>
   </data>
-  <data name="txtTelefono.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>878, 250</value>
+  <data name="txtTelefono.Location" type="System.Drawing.Point, System.Drawing">
+    <value>878, 190</value>
   </data>
-  <data name="txtTelefono.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="txtTelefono.Size" type="System.Drawing.Size, System.Drawing">
     <value>143, 27</value>
   </data>
-  <data name="txtTelefono.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="txtTelefono.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
   <data name="&gt;&gt;txtTelefono.Name" xml:space="preserve">
     <value>txtTelefono</value>
   </data>
   <data name="&gt;&gt;txtTelefono.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;txtTelefono.Parent" xml:space="preserve">
     <value>$this</value>
@@ -723,19 +722,19 @@ Historia clínica Odontológica.
   <data name="&gt;&gt;txtTelefono.ZOrder" xml:space="preserve">
     <value>17</value>
   </data>
-  <data name="label17.AutoSize" type="System.Boolean, System.Private.CoreLib">
+  <data name="label17.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label17.Font" type="System.Drawing.Font, System.Drawing.Common">
+  <data name="label17.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI Semibold, 11.25pt, style=Bold</value>
   </data>
-  <data name="label17.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
     <value>21, 523</value>
   </data>
-  <data name="label17.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
     <value>144, 20</value>
   </data>
-  <data name="label17.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="label17.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="label17.Text" xml:space="preserve">
@@ -745,7 +744,7 @@ Historia clínica Odontológica.
     <value>label17</value>
   </data>
   <data name="&gt;&gt;label17.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label17.Parent" xml:space="preserve">
     <value>$this</value>
@@ -753,13 +752,13 @@ Historia clínica Odontológica.
   <data name="&gt;&gt;label17.ZOrder" xml:space="preserve">
     <value>16</value>
   </data>
-  <data name="txtDescription.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="txtDescription.Location" type="System.Drawing.Point, System.Drawing">
     <value>171, 484</value>
   </data>
-  <data name="txtDescription.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="txtDescription.Size" type="System.Drawing.Size, System.Drawing">
     <value>563, 106</value>
   </data>
-  <data name="txtDescription.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="txtDescription.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
   <data name="txtDescription.Text" xml:space="preserve">
@@ -769,7 +768,7 @@ Historia clínica Odontológica.
     <value>txtDescription</value>
   </data>
   <data name="&gt;&gt;txtDescription.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;txtDescription.Parent" xml:space="preserve">
     <value>$this</value>
@@ -777,20 +776,20 @@ Historia clínica Odontológica.
   <data name="&gt;&gt;txtDescription.ZOrder" xml:space="preserve">
     <value>15</value>
   </data>
-  <data name="txtSex.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>711, 164</value>
+  <data name="txtSex.Location" type="System.Drawing.Point, System.Drawing">
+    <value>711, 132</value>
   </data>
-  <data name="txtSex.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="txtSex.Size" type="System.Drawing.Size, System.Drawing">
     <value>89, 27</value>
   </data>
-  <data name="txtSex.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="txtSex.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
   <data name="&gt;&gt;txtSex.Name" xml:space="preserve">
     <value>txtSex</value>
   </data>
   <data name="&gt;&gt;txtSex.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;txtSex.Parent" xml:space="preserve">
     <value>$this</value>
@@ -798,13 +797,13 @@ Historia clínica Odontológica.
   <data name="&gt;&gt;txtSex.ZOrder" xml:space="preserve">
     <value>14</value>
   </data>
-  <data name="button2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
     <value>925, 513</value>
   </data>
-  <data name="button2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
     <value>96, 40</value>
   </data>
-  <data name="button2.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="button2.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
   <data name="button2.Text" xml:space="preserve">
@@ -814,7 +813,7 @@ Historia clínica Odontológica.
     <value>button2</value>
   </data>
   <data name="&gt;&gt;button2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;button2.Parent" xml:space="preserve">
     <value>$this</value>
@@ -822,19 +821,19 @@ Historia clínica Odontológica.
   <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
     <value>13</value>
   </data>
-  <data name="label18.AutoSize" type="System.Boolean, System.Private.CoreLib">
+  <data name="label18.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label18.Font" type="System.Drawing.Font, System.Drawing.Common">
+  <data name="label18.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI Semibold, 11.25pt, style=Bold</value>
   </data>
-  <data name="label18.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
     <value>21, 398</value>
   </data>
-  <data name="label18.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 20</value>
   </data>
-  <data name="label18.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="label18.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
   </data>
   <data name="label18.Text" xml:space="preserve">
@@ -844,7 +843,7 @@ Historia clínica Odontológica.
     <value>label18</value>
   </data>
   <data name="&gt;&gt;label18.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label18.Parent" xml:space="preserve">
     <value>$this</value>
@@ -852,20 +851,20 @@ Historia clínica Odontológica.
   <data name="&gt;&gt;label18.ZOrder" xml:space="preserve">
     <value>12</value>
   </data>
-  <data name="tutorTxtBox.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="tutorTxtBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>97, 398</value>
   </data>
-  <data name="tutorTxtBox.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="tutorTxtBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>435, 27</value>
   </data>
-  <data name="tutorTxtBox.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="tutorTxtBox.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
   </data>
   <data name="&gt;&gt;tutorTxtBox.Name" xml:space="preserve">
     <value>tutorTxtBox</value>
   </data>
   <data name="&gt;&gt;tutorTxtBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tutorTxtBox.Parent" xml:space="preserve">
     <value>$this</value>
@@ -873,19 +872,19 @@ Historia clínica Odontológica.
   <data name="&gt;&gt;tutorTxtBox.ZOrder" xml:space="preserve">
     <value>11</value>
   </data>
-  <data name="label19.AutoSize" type="System.Boolean, System.Private.CoreLib">
+  <data name="label19.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label19.Font" type="System.Drawing.Font, System.Drawing.Common">
+  <data name="label19.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9pt</value>
   </data>
-  <data name="label19.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
     <value>257, 428</value>
   </data>
-  <data name="label19.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
     <value>99, 15</value>
   </data>
-  <data name="label19.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="label19.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="label19.Text" xml:space="preserve">
@@ -895,7 +894,7 @@ Historia clínica Odontológica.
     <value>label19</value>
   </data>
   <data name="&gt;&gt;label19.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label19.Parent" xml:space="preserve">
     <value>$this</value>
@@ -903,19 +902,19 @@ Historia clínica Odontológica.
   <data name="&gt;&gt;label19.ZOrder" xml:space="preserve">
     <value>10</value>
   </data>
-  <data name="label20.AutoSize" type="System.Boolean, System.Private.CoreLib">
+  <data name="label20.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label20.Font" type="System.Drawing.Font, System.Drawing.Common">
+  <data name="label20.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9pt</value>
   </data>
-  <data name="label20.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="label20.Location" type="System.Drawing.Point, System.Drawing">
     <value>111, 428</value>
   </data>
-  <data name="label20.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="label20.Size" type="System.Drawing.Size, System.Drawing">
     <value>95, 15</value>
   </data>
-  <data name="label20.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="label20.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="label20.Text" xml:space="preserve">
@@ -925,7 +924,7 @@ Historia clínica Odontológica.
     <value>label20</value>
   </data>
   <data name="&gt;&gt;label20.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label20.Parent" xml:space="preserve">
     <value>$this</value>
@@ -933,19 +932,19 @@ Historia clínica Odontológica.
   <data name="&gt;&gt;label20.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
-  <data name="label21.AutoSize" type="System.Boolean, System.Private.CoreLib">
+  <data name="label21.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label21.Font" type="System.Drawing.Font, System.Drawing.Common">
+  <data name="label21.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9pt</value>
   </data>
-  <data name="label21.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="label21.Location" type="System.Drawing.Point, System.Drawing">
     <value>427, 428</value>
   </data>
-  <data name="label21.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="label21.Size" type="System.Drawing.Size, System.Drawing">
     <value>67, 15</value>
   </data>
-  <data name="label21.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="label21.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="label21.Text" xml:space="preserve">
@@ -955,7 +954,7 @@ Historia clínica Odontológica.
     <value>label21</value>
   </data>
   <data name="&gt;&gt;label21.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label21.Parent" xml:space="preserve">
     <value>$this</value>
@@ -963,19 +962,19 @@ Historia clínica Odontológica.
   <data name="&gt;&gt;label21.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="label22.AutoSize" type="System.Boolean, System.Private.CoreLib">
+  <data name="label22.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label22.Font" type="System.Drawing.Font, System.Drawing.Common">
+  <data name="label22.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI Semibold, 11.25pt, style=Bold</value>
   </data>
-  <data name="label22.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="label22.Location" type="System.Drawing.Point, System.Drawing">
     <value>553, 403</value>
   </data>
-  <data name="label22.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="label22.Size" type="System.Drawing.Size, System.Drawing">
     <value>32, 20</value>
   </data>
-  <data name="label22.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="label22.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="label22.Text" xml:space="preserve">
@@ -985,7 +984,7 @@ Historia clínica Odontológica.
     <value>label22</value>
   </data>
   <data name="&gt;&gt;label22.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label22.Parent" xml:space="preserve">
     <value>$this</value>
@@ -993,20 +992,20 @@ Historia clínica Odontológica.
   <data name="&gt;&gt;label22.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="tutorTelTxtBox.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="tutorTelTxtBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>591, 398</value>
   </data>
-  <data name="tutorTelTxtBox.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="tutorTelTxtBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>143, 27</value>
   </data>
-  <data name="tutorTelTxtBox.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="tutorTelTxtBox.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
   <data name="&gt;&gt;tutorTelTxtBox.Name" xml:space="preserve">
     <value>tutorTelTxtBox</value>
   </data>
   <data name="&gt;&gt;tutorTelTxtBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tutorTelTxtBox.Parent" xml:space="preserve">
     <value>$this</value>
@@ -1014,7 +1013,7 @@ Historia clínica Odontológica.
   <data name="&gt;&gt;tutorTelTxtBox.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAACfQAAAp2CAYAAAAgat/mAAAABGdBTUEAALGOfPtRkwAAACBjSFJNAACH
         DwAAjA8AAP1SAACBQAAAfXkAAOmLAAA85QAAGcxzPIV3AAAKNWlDQ1BzUkdCIElFQzYxOTY2LTIuMQAA
@@ -3743,23 +3742,23 @@ Historia clínica Odontológica.
         RK5CYII=
 </value>
   </data>
-  <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
     <value>47, 21</value>
   </data>
-  <data name="pictureBox2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="pictureBox2.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 81</value>
   </data>
   <data name="pictureBox2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>StretchImage</value>
   </data>
-  <data name="pictureBox2.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="pictureBox2.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
   </data>
   <data name="&gt;&gt;pictureBox2.Name" xml:space="preserve">
     <value>pictureBox2</value>
   </data>
   <data name="&gt;&gt;pictureBox2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;pictureBox2.Parent" xml:space="preserve">
     <value>$this</value>
@@ -3767,19 +3766,19 @@ Historia clínica Odontológica.
   <data name="&gt;&gt;pictureBox2.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="label23.AutoSize" type="System.Boolean, System.Private.CoreLib">
+  <data name="label23.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label23.Font" type="System.Drawing.Font, System.Drawing.Common">
+  <data name="label23.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI Semibold, 11.25pt, style=Bold</value>
   </data>
-  <data name="label23.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>256, 334</value>
+  <data name="label23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>256, 345</value>
   </data>
-  <data name="label23.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="label23.Size" type="System.Drawing.Size, System.Drawing">
     <value>68, 20</value>
   </data>
-  <data name="label23.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="label23.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
   </data>
   <data name="label23.Text" xml:space="preserve">
@@ -3789,7 +3788,7 @@ Historia clínica Odontológica.
     <value>label23</value>
   </data>
   <data name="&gt;&gt;label23.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label23.Parent" xml:space="preserve">
     <value>$this</value>
@@ -3797,20 +3796,20 @@ Historia clínica Odontológica.
   <data name="&gt;&gt;label23.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="txtAllergies.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>332, 331</value>
+  <data name="txtAllergies.Location" type="System.Drawing.Point, System.Drawing">
+    <value>332, 342</value>
   </data>
-  <data name="txtAllergies.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="txtAllergies.Size" type="System.Drawing.Size, System.Drawing">
     <value>212, 27</value>
   </data>
-  <data name="txtAllergies.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="txtAllergies.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
   </data>
   <data name="&gt;&gt;txtAllergies.Name" xml:space="preserve">
     <value>txtAllergies</value>
   </data>
   <data name="&gt;&gt;txtAllergies.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;txtAllergies.Parent" xml:space="preserve">
     <value>$this</value>
@@ -3818,19 +3817,19 @@ Historia clínica Odontológica.
   <data name="&gt;&gt;txtAllergies.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="checkBox1.AutoSize" type="System.Boolean, System.Private.CoreLib">
+  <data name="checkBox1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="checkBox1.Font" type="System.Drawing.Font, System.Drawing.Common">
+  <data name="checkBox1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI Semibold, 11.25pt, style=Bold</value>
   </data>
-  <data name="checkBox1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>627, 331</value>
+  <data name="checkBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>627, 342</value>
   </data>
-  <data name="checkBox1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="checkBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>93, 24</value>
   </data>
-  <data name="checkBox1.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="checkBox1.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
   </data>
   <data name="checkBox1.Text" xml:space="preserve">
@@ -3840,7 +3839,7 @@ Historia clínica Odontológica.
     <value>checkBox1</value>
   </data>
   <data name="&gt;&gt;checkBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;checkBox1.Parent" xml:space="preserve">
     <value>$this</value>
@@ -3848,19 +3847,19 @@ Historia clínica Odontológica.
   <data name="&gt;&gt;checkBox1.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="checkBox2.AutoSize" type="System.Boolean, System.Private.CoreLib">
+  <data name="checkBox2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="checkBox2.Font" type="System.Drawing.Font, System.Drawing.Common">
+  <data name="checkBox2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI Semibold, 11.25pt, style=Bold</value>
   </data>
-  <data name="checkBox2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>731, 331</value>
+  <data name="checkBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>731, 342</value>
   </data>
-  <data name="checkBox2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="checkBox2.Size" type="System.Drawing.Size, System.Drawing">
     <value>103, 24</value>
   </data>
-  <data name="checkBox2.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="checkBox2.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
   </data>
   <data name="checkBox2.Text" xml:space="preserve">
@@ -3870,7 +3869,7 @@ Historia clínica Odontológica.
     <value>checkBox2</value>
   </data>
   <data name="&gt;&gt;checkBox2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;checkBox2.Parent" xml:space="preserve">
     <value>$this</value>
@@ -3878,19 +3877,19 @@ Historia clínica Odontológica.
   <data name="&gt;&gt;checkBox2.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="checkBox3.AutoSize" type="System.Boolean, System.Private.CoreLib">
+  <data name="checkBox3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="checkBox3.Font" type="System.Drawing.Font, System.Drawing.Common">
+  <data name="checkBox3.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI Semibold, 11.25pt, style=Bold</value>
   </data>
-  <data name="checkBox3.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>849, 331</value>
+  <data name="checkBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>849, 342</value>
   </data>
-  <data name="checkBox3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="checkBox3.Size" type="System.Drawing.Size, System.Drawing">
     <value>96, 24</value>
   </data>
-  <data name="checkBox3.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="checkBox3.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
   </data>
   <data name="checkBox3.Text" xml:space="preserve">
@@ -3900,7 +3899,7 @@ Historia clínica Odontológica.
     <value>checkBox3</value>
   </data>
   <data name="&gt;&gt;checkBox3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;checkBox3.Parent" xml:space="preserve">
     <value>$this</value>
@@ -3908,16 +3907,16 @@ Historia clínica Odontológica.
   <data name="&gt;&gt;checkBox3.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing.Primitives">
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>8, 20</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>1058, 605</value>
   </data>
-  <data name="$this.Font" type="System.Drawing.Font, System.Drawing.Common">
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 11pt</value>
   </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
@@ -3933,6 +3932,6 @@ Historia clínica Odontológica.
     <value>Form1</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>
