@@ -87,3 +87,5 @@ C:\Users\Lenovo\Documents\Mario_Brito\Codes\C-_Formulary_database_connection\Dat
 C:\Users\Lenovo\Documents\Mario_Brito\Codes\C-_Formulary_database_connection\DataBase_Formulary\obj\Release\netcoreapp3.1\DataBase_Formulary.dll
 C:\Users\Lenovo\Documents\Mario_Brito\Codes\C-_Formulary_database_connection\DataBase_Formulary\obj\Release\netcoreapp3.1\DataBase_Formulary.pdb
 C:\Users\Lenovo\Documents\Mario_Brito\Codes\C-_Formulary_database_connection\DataBase_Formulary\obj\Release\netcoreapp3.1\DataBase_Formulary.genruntimeconfig.cache
+C:\Users\Lenovo\Documents\Mario_Brito\Codes\C-_Formulary_database_connection\DataBase_Formulary\bin\Release\netcoreapp3.1\itextsharp.dll
+C:\Users\Lenovo\Documents\Mario_Brito\Codes\C-_Formulary_database_connection\DataBase_Formulary\bin\Release\netcoreapp3.1\itextsharp.xmlworker.dll

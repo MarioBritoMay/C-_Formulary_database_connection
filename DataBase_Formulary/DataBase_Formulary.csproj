@@ -8,6 +8,8 @@
 
   <ItemGroup>
     <PackageReference Include="itext7" Version="7.1.12" />
+    <PackageReference Include="iTextSharp" Version="5.5.13.3" />
+    <PackageReference Include="itextsharp.xmlworker" Version="5.5.13.3" />
     <PackageReference Include="MySql.Data" Version="8.0.21" />
   </ItemGroup>
 

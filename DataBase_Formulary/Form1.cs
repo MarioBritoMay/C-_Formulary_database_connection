@@ -1,11 +1,5 @@
 ﻿#define debugVersion
 //#define realeseVersion
-using iText.IO.Font.Constants;
-using iText.Kernel.Font;
-using iText.Kernel.Geom;
-using iText.Kernel.Pdf;
-using iText.Layout;
-using iText.Layout.Element;
 using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
@@ -15,7 +9,11 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Forms; 
+using System.Windows.Forms;
+using iTextSharp.text;
+using iTextSharp.text.pdf;
+using iTextSharp.tool.xml;
+using System.IO;
 
 namespace DataBase_Formulary
 {
@@ -131,40 +129,42 @@ namespace DataBase_Formulary
 
         private void PDFCreator(int age_1, String name, String age, String sex, String adds, String allergies, String ailments, String description, String fR, String fN, String eC, String tel, String Tutor, String T_Cel, String file_Name)
         {
-            //Initialize PDF writer and set the file address
-#if debugVersion
-            PdfWriter pdfwriter = new PdfWriter("C:/Users/Lenovo/Documents/Mario_Brito/Codes/C-_Formulary_database_connection/DataBase_Formulary/Reportes/Reporte_" + file_Name + ".pdf");
+            SaveFileDialog saveFile = new SaveFileDialog();
+            //le damos nombre al documento y en el añadimos el tipo de documento añadiendole la extension .pdf
+            saveFile.FileName = txtNombre.Text + txtFechaN.Text + ".pdf";
 
-#elif realeseVersion
-                        PdfWriter pdfwriter = new PdfWriter("C:/Users/Francisco/Desktop/Reportes/Reporte_" + file_Name + ".pdf");
-#endif
-            //Initialize PDF document
-            PdfDocument pdf = new PdfDocument(pdfwriter);
-            Document documento = new Document(pdf, PageSize.LETTER); //I give size to the document
-            documento.SetMargins(60, 20, 55, 20);//I put a margin to the document (top, rigth, button, left)
-            //Document Fonts
-            PdfFont fontTitle = PdfFontFactory.CreateFont(StandardFonts.TIMES_BOLD);
-            PdfFont fontContend = PdfFontFactory.CreateFont(StandardFonts.TIMES_ROMAN);
-            //Document Sections
-            var Title = new Paragraph("Historia Clinica. \n").SetFont(fontTitle);
-            if (age_1 >= 18)
+            String HtmlPage_content = "<html><head><title>Historia clinica</title><style type='text/css'>body {font-family: Georgia, 'Times New Roman'," +
+            "font-family: Georgia, 'Times New Roman', Times, serif; color: black; background-color: white; border:  red 1px solid;" +
+            "margin:  25px 35px 25px 35px; padding: 15px;}" +
+            "h1 { margin: 10px; color: black; font-size: 18px; font-weight: 400; line-height: 1.5; text-transform: uppercase; text-align:center;}" +
+            "  		h2 { margin: 10px;color: black; font-size: 18px; font-weight: normal; line-height: 1.5;    text-align: center; }" +
+            "tr { margin:  5px; border: black 1px solid; } " +
+            "td { margin: 5px; border: black 1px solid; } </style>" +
+            "</head><body><header><div><h1>Consultorio Dental Motul</h1><h2>Historia Clinica.</h2></div></header>"+
+            "<section><div><table class='default'><tr><td><strong>"+name+"</strong></td><td><strong>"+ age + "</strong></td><td><strong>"+sex+" </strong></td>"+
+            "</tr><tr><td><strong>"+adds+"</strong></td><td><strong>"+fN+"</strong></td><td><strong>"+tel+"</strong></td>"+
+            "</tr></table></div></section></body></html>";
+
+                // contenido del PDF
+
+            if (saveFile.ShowDialog() == DialogResult.OK) // mostrar ventana de dialogo si la respuesta es correcta
             {
-                var pxInformation = new Paragraph(fR + name + age + fN + sex + eC + adds + tel + allergies + ailments + description).SetFont(fontContend);                //Add Sections
-                documento.Add(Title);
-                documento.Add(pxInformation);
-                documento.Close();
+                using (FileStream stream = new FileStream(saveFile.FileName, FileMode.Create))// crea el archivo de memoria
+                {
+                    Document pdfDoc = new Document(PageSize.A4, 25, 25, 25, 25); //da las caracteristicas al documento
+                    PdfWriter writter = PdfWriter.GetInstance(pdfDoc, stream);     // nos va permitir escribir el contenido        
+                    pdfDoc.Open();// abrimos el documento
+                    pdfDoc.Add(new Phrase(""));// añadimos el contenido
+
+                    using (StringReader sr = new StringReader(HtmlPage_content))
+                    {
+                        XMLWorkerHelper.GetInstance().ParseXHtml(writter, pdfDoc, sr);
+                    }
+
+                    pdfDoc.Close();// cerramos documento
+                    stream.Close();// cerramos espacio de memoria
+                }
             }
-            else
-            {
-                var pxInformation = new Paragraph(fR + name + age + fN + Tutor + T_Cel + sex + eC + adds + tel + allergies + ailments + description).SetFont(fontContend);
-                //Add Sections
-                documento.Add(Title);
-                documento.Add(pxInformation);
-                documento.Close();
-            }
-
-
-
         }
 
         public void ereaserFields()
