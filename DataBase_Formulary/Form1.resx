@@ -62,7 +62,7 @@
     <value>Microsoft Sans Serif, 11.25pt</value>
   </data>
   <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>795, 513</value>
+    <value>817, 436</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="button1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
@@ -88,7 +88,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
-    <value>40</value>
+    <value>41</value>
   </data>
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -123,7 +123,7 @@ Historia clínica Odontológica.
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>39</value>
+    <value>40</value>
   </data>
   <data name="label2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -153,7 +153,7 @@ Historia clínica Odontológica.
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>38</value>
+    <value>39</value>
   </data>
   <data name="label4.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -183,7 +183,7 @@ Historia clínica Odontológica.
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
-    <value>37</value>
+    <value>38</value>
   </data>
   <data name="label5.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -213,7 +213,7 @@ Historia clínica Odontológica.
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
-    <value>36</value>
+    <value>37</value>
   </data>
   <data name="label6.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -222,7 +222,7 @@ Historia clínica Odontológica.
     <value>Segoe UI Semibold, 11.25pt, style=Bold</value>
   </data>
   <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>642, 136</value>
+    <value>660, 137</value>
   </data>
   <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
     <value>63, 20</value>
@@ -243,7 +243,7 @@ Historia clínica Odontológica.
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
-    <value>35</value>
+    <value>36</value>
   </data>
   <data name="label7.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -252,7 +252,7 @@ Historia clínica Odontológica.
     <value>Segoe UI Semibold, 11.25pt, style=Bold</value>
   </data>
   <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>21, 345</value>
+    <value>841, 136</value>
   </data>
   <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
     <value>53, 20</value>
@@ -273,7 +273,7 @@ Historia clínica Odontológica.
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
-    <value>34</value>
+    <value>35</value>
   </data>
   <data name="label8.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -303,7 +303,7 @@ Historia clínica Odontológica.
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
-    <value>33</value>
+    <value>34</value>
   </data>
   <data name="txtNombre.Location" type="System.Drawing.Point, System.Drawing">
     <value>97, 132</value>
@@ -324,7 +324,7 @@ Historia clínica Odontológica.
     <value>$this</value>
   </data>
   <data name="&gt;&gt;txtNombre.ZOrder" xml:space="preserve">
-    <value>32</value>
+    <value>33</value>
   </data>
   <data name="txtEdad.Location" type="System.Drawing.Point, System.Drawing">
     <value>591, 132</value>
@@ -345,10 +345,10 @@ Historia clínica Odontológica.
     <value>$this</value>
   </data>
   <data name="&gt;&gt;txtEdad.ZOrder" xml:space="preserve">
-    <value>31</value>
+    <value>32</value>
   </data>
   <data name="txtFechaR.Location" type="System.Drawing.Point, System.Drawing">
-    <value>97, 342</value>
+    <value>900, 133</value>
   </data>
   <data name="txtFechaR.Size" type="System.Drawing.Size, System.Drawing">
     <value>143, 27</value>
@@ -366,7 +366,7 @@ Historia clínica Odontológica.
     <value>$this</value>
   </data>
   <data name="&gt;&gt;txtFechaR.ZOrder" xml:space="preserve">
-    <value>30</value>
+    <value>31</value>
   </data>
   <data name="label9.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -375,7 +375,7 @@ Historia clínica Odontológica.
     <value>Segoe UI Semibold, 11.25pt, style=Bold</value>
   </data>
   <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>806, 136</value>
+    <value>828, 198</value>
   </data>
   <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
     <value>91, 20</value>
@@ -396,10 +396,10 @@ Historia clínica Odontológica.
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
-    <value>29</value>
+    <value>30</value>
   </data>
   <data name="txtEstadoCivil.Location" type="System.Drawing.Point, System.Drawing">
-    <value>903, 132</value>
+    <value>925, 194</value>
   </data>
   <data name="txtEstadoCivil.Size" type="System.Drawing.Size, System.Drawing">
     <value>118, 27</value>
@@ -417,7 +417,7 @@ Historia clínica Odontológica.
     <value>$this</value>
   </data>
   <data name="&gt;&gt;txtEstadoCivil.ZOrder" xml:space="preserve">
-    <value>28</value>
+    <value>29</value>
   </data>
   <data name="label10.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -426,7 +426,7 @@ Historia clínica Odontológica.
     <value>Segoe UI Semibold, 11.25pt, style=Bold</value>
   </data>
   <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>538, 193</value>
+    <value>18, 261</value>
   </data>
   <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
     <value>147, 20</value>
@@ -447,13 +447,13 @@ Historia clínica Odontológica.
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
-    <value>27</value>
+    <value>28</value>
   </data>
   <data name="txtFechaN.Location" type="System.Drawing.Point, System.Drawing">
-    <value>691, 190</value>
+    <value>171, 258</value>
   </data>
   <data name="txtFechaN.Size" type="System.Drawing.Size, System.Drawing">
-    <value>143, 27</value>
+    <value>99, 27</value>
   </data>
   <data name="txtFechaN.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -468,7 +468,7 @@ Historia clínica Odontológica.
     <value>$this</value>
   </data>
   <data name="&gt;&gt;txtFechaN.ZOrder" xml:space="preserve">
-    <value>26</value>
+    <value>27</value>
   </data>
   <data name="label11.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -498,7 +498,7 @@ Historia clínica Odontológica.
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
-    <value>25</value>
+    <value>26</value>
   </data>
   <data name="label3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -528,28 +528,7 @@ Historia clínica Odontológica.
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
-    <value>24</value>
-  </data>
-  <data name="txtAddress.Location" type="System.Drawing.Point, System.Drawing">
-    <value>97, 190</value>
-  </data>
-  <data name="txtAddress.Size" type="System.Drawing.Size, System.Drawing">
-    <value>435, 27</value>
-  </data>
-  <data name="txtAddress.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;txtAddress.Name" xml:space="preserve">
-    <value>txtAddress</value>
-  </data>
-  <data name="&gt;&gt;txtAddress.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtAddress.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;txtAddress.ZOrder" xml:space="preserve">
-    <value>23</value>
+    <value>25</value>
   </data>
   <data name="label12.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -558,16 +537,16 @@ Historia clínica Odontológica.
     <value>Segoe UI, 9pt</value>
   </data>
   <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>113, 224</value>
+    <value>471, 224</value>
   </data>
   <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>33, 15</value>
+    <value>61, 15</value>
   </data>
   <data name="label12.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="label12.Text" xml:space="preserve">
-    <value>Calle</value>
+    <value>Domicilio.</value>
   </data>
   <data name="&gt;&gt;label12.Name" xml:space="preserve">
     <value>label12</value>
@@ -579,97 +558,7 @@ Historia clínica Odontológica.
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
-    <value>22</value>
-  </data>
-  <data name="label13.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label13.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
-  </data>
-  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>178, 224</value>
-  </data>
-  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>51, 15</value>
-  </data>
-  <data name="label13.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="label13.Text" xml:space="preserve">
-    <value>Numero</value>
-  </data>
-  <data name="&gt;&gt;label13.Name" xml:space="preserve">
-    <value>label13</value>
-  </data>
-  <data name="&gt;&gt;label13.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label13.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
-    <value>21</value>
-  </data>
-  <data name="label14.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label14.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
-  </data>
-  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
-    <value>382, 224</value>
-  </data>
-  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
-    <value>48, 15</value>
-  </data>
-  <data name="label14.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="label14.Text" xml:space="preserve">
-    <value>Colonia</value>
-  </data>
-  <data name="&gt;&gt;label14.Name" xml:space="preserve">
-    <value>label14</value>
-  </data>
-  <data name="&gt;&gt;label14.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label14.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label14.ZOrder" xml:space="preserve">
-    <value>20</value>
-  </data>
-  <data name="label15.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label15.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
-  </data>
-  <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
-    <value>263, 224</value>
-  </data>
-  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 15</value>
-  </data>
-  <data name="label15.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="label15.Text" xml:space="preserve">
-    <value>Cruzamientos</value>
-  </data>
-  <data name="&gt;&gt;label15.Name" xml:space="preserve">
-    <value>label15</value>
-  </data>
-  <data name="&gt;&gt;label15.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label15.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label15.ZOrder" xml:space="preserve">
-    <value>19</value>
+    <value>24</value>
   </data>
   <data name="label16.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -678,7 +567,7 @@ Historia clínica Odontológica.
     <value>Segoe UI Semibold, 11.25pt, style=Bold</value>
   </data>
   <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
-    <value>840, 193</value>
+    <value>673, 197</value>
   </data>
   <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
     <value>32, 20</value>
@@ -699,13 +588,13 @@ Historia clínica Odontológica.
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label16.ZOrder" xml:space="preserve">
-    <value>18</value>
+    <value>23</value>
   </data>
   <data name="txtTelefono.Location" type="System.Drawing.Point, System.Drawing">
-    <value>878, 190</value>
+    <value>711, 194</value>
   </data>
   <data name="txtTelefono.Size" type="System.Drawing.Size, System.Drawing">
-    <value>143, 27</value>
+    <value>115, 27</value>
   </data>
   <data name="txtTelefono.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -720,7 +609,7 @@ Historia clínica Odontológica.
     <value>$this</value>
   </data>
   <data name="&gt;&gt;txtTelefono.ZOrder" xml:space="preserve">
-    <value>17</value>
+    <value>22</value>
   </data>
   <data name="label17.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -729,7 +618,7 @@ Historia clínica Odontológica.
     <value>Segoe UI Semibold, 11.25pt, style=Bold</value>
   </data>
   <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
-    <value>21, 523</value>
+    <value>21, 436</value>
   </data>
   <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
     <value>144, 20</value>
@@ -750,10 +639,10 @@ Historia clínica Odontológica.
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label17.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>21</value>
   </data>
   <data name="txtDescription.Location" type="System.Drawing.Point, System.Drawing">
-    <value>171, 484</value>
+    <value>171, 397</value>
   </data>
   <data name="txtDescription.Size" type="System.Drawing.Size, System.Drawing">
     <value>563, 106</value>
@@ -774,13 +663,13 @@ Historia clínica Odontológica.
     <value>$this</value>
   </data>
   <data name="&gt;&gt;txtDescription.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>20</value>
   </data>
   <data name="txtSex.Location" type="System.Drawing.Point, System.Drawing">
-    <value>711, 132</value>
+    <value>729, 133</value>
   </data>
   <data name="txtSex.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 27</value>
+    <value>105, 27</value>
   </data>
   <data name="txtSex.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -795,10 +684,10 @@ Historia clínica Odontológica.
     <value>$this</value>
   </data>
   <data name="&gt;&gt;txtSex.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>19</value>
   </data>
   <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>925, 513</value>
+    <value>947, 436</value>
   </data>
   <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
     <value>96, 40</value>
@@ -819,7 +708,7 @@ Historia clínica Odontológica.
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>18</value>
   </data>
   <data name="label18.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -828,7 +717,7 @@ Historia clínica Odontológica.
     <value>Segoe UI Semibold, 11.25pt, style=Bold</value>
   </data>
   <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
-    <value>21, 398</value>
+    <value>21, 313</value>
   </data>
   <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 20</value>
@@ -849,10 +738,10 @@ Historia clínica Odontológica.
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label18.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>17</value>
   </data>
   <data name="tutorTxtBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>97, 398</value>
+    <value>97, 313</value>
   </data>
   <data name="tutorTxtBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>435, 27</value>
@@ -870,7 +759,7 @@ Historia clínica Odontológica.
     <value>$this</value>
   </data>
   <data name="&gt;&gt;tutorTxtBox.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>16</value>
   </data>
   <data name="label19.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -879,7 +768,7 @@ Historia clínica Odontológica.
     <value>Segoe UI, 9pt</value>
   </data>
   <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
-    <value>257, 428</value>
+    <value>257, 343</value>
   </data>
   <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
     <value>99, 15</value>
@@ -900,7 +789,7 @@ Historia clínica Odontológica.
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label19.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>15</value>
   </data>
   <data name="label20.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -909,7 +798,7 @@ Historia clínica Odontológica.
     <value>Segoe UI, 9pt</value>
   </data>
   <data name="label20.Location" type="System.Drawing.Point, System.Drawing">
-    <value>111, 428</value>
+    <value>111, 343</value>
   </data>
   <data name="label20.Size" type="System.Drawing.Size, System.Drawing">
     <value>95, 15</value>
@@ -930,7 +819,7 @@ Historia clínica Odontológica.
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label20.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>14</value>
   </data>
   <data name="label21.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -939,7 +828,7 @@ Historia clínica Odontológica.
     <value>Segoe UI, 9pt</value>
   </data>
   <data name="label21.Location" type="System.Drawing.Point, System.Drawing">
-    <value>427, 428</value>
+    <value>427, 343</value>
   </data>
   <data name="label21.Size" type="System.Drawing.Size, System.Drawing">
     <value>67, 15</value>
@@ -960,7 +849,7 @@ Historia clínica Odontológica.
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label21.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>13</value>
   </data>
   <data name="label22.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -969,7 +858,7 @@ Historia clínica Odontológica.
     <value>Segoe UI Semibold, 11.25pt, style=Bold</value>
   </data>
   <data name="label22.Location" type="System.Drawing.Point, System.Drawing">
-    <value>553, 403</value>
+    <value>553, 318</value>
   </data>
   <data name="label22.Size" type="System.Drawing.Size, System.Drawing">
     <value>32, 20</value>
@@ -990,10 +879,10 @@ Historia clínica Odontológica.
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label22.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>12</value>
   </data>
   <data name="tutorTelTxtBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>591, 398</value>
+    <value>591, 313</value>
   </data>
   <data name="tutorTelTxtBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>143, 27</value>
@@ -1011,7 +900,7 @@ Historia clínica Odontológica.
     <value>$this</value>
   </data>
   <data name="&gt;&gt;tutorTelTxtBox.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>11</value>
   </data>
   <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3764,7 +3653,7 @@ Historia clínica Odontológica.
     <value>$this</value>
   </data>
   <data name="&gt;&gt;pictureBox2.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>10</value>
   </data>
   <data name="label23.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3773,7 +3662,7 @@ Historia clínica Odontológica.
     <value>Segoe UI Semibold, 11.25pt, style=Bold</value>
   </data>
   <data name="label23.Location" type="System.Drawing.Point, System.Drawing">
-    <value>256, 345</value>
+    <value>297, 261</value>
   </data>
   <data name="label23.Size" type="System.Drawing.Size, System.Drawing">
     <value>68, 20</value>
@@ -3794,10 +3683,10 @@ Historia clínica Odontológica.
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label23.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>9</value>
   </data>
   <data name="txtAllergies.Location" type="System.Drawing.Point, System.Drawing">
-    <value>332, 342</value>
+    <value>373, 258</value>
   </data>
   <data name="txtAllergies.Size" type="System.Drawing.Size, System.Drawing">
     <value>212, 27</value>
@@ -3815,7 +3704,7 @@ Historia clínica Odontológica.
     <value>$this</value>
   </data>
   <data name="&gt;&gt;txtAllergies.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>8</value>
   </data>
   <data name="checkBox1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3824,7 +3713,7 @@ Historia clínica Odontológica.
     <value>Segoe UI Semibold, 11.25pt, style=Bold</value>
   </data>
   <data name="checkBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>627, 342</value>
+    <value>619, 260</value>
   </data>
   <data name="checkBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>93, 24</value>
@@ -3845,7 +3734,7 @@ Historia clínica Odontológica.
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBox1.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>7</value>
   </data>
   <data name="checkBox2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3854,7 +3743,7 @@ Historia clínica Odontológica.
     <value>Segoe UI Semibold, 11.25pt, style=Bold</value>
   </data>
   <data name="checkBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>731, 342</value>
+    <value>723, 260</value>
   </data>
   <data name="checkBox2.Size" type="System.Drawing.Size, System.Drawing">
     <value>103, 24</value>
@@ -3875,7 +3764,7 @@ Historia clínica Odontológica.
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBox2.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>6</value>
   </data>
   <data name="checkBox3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3884,7 +3773,7 @@ Historia clínica Odontológica.
     <value>Segoe UI Semibold, 11.25pt, style=Bold</value>
   </data>
   <data name="checkBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>849, 342</value>
+    <value>841, 260</value>
   </data>
   <data name="checkBox3.Size" type="System.Drawing.Size, System.Drawing">
     <value>96, 24</value>
@@ -3905,6 +3794,135 @@ Historia clínica Odontológica.
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBox3.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txtMunicipio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 194</value>
+  </data>
+  <data name="txtMunicipio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 27</value>
+  </data>
+  <data name="txtMunicipio.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;txtMunicipio.Name" xml:space="preserve">
+    <value>txtMunicipio</value>
+  </data>
+  <data name="&gt;&gt;txtMunicipio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtMunicipio.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtMunicipio.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label24.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label24.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="label24.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>142, 224</value>
+  </data>
+  <data name="label24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 15</value>
+  </data>
+  <data name="label24.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="label24.Text" xml:space="preserve">
+    <value>Municipio.</value>
+  </data>
+  <data name="&gt;&gt;label24.Name" xml:space="preserve">
+    <value>label24</value>
+  </data>
+  <data name="&gt;&gt;label24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label24.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label24.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label25.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label25.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="label25.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>274, 224</value>
+  </data>
+  <data name="label25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 15</value>
+  </data>
+  <data name="label25.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="label25.Text" xml:space="preserve">
+    <value>Cuidad.</value>
+  </data>
+  <data name="&gt;&gt;label25.Name" xml:space="preserve">
+    <value>label25</value>
+  </data>
+  <data name="&gt;&gt;label25.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label25.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label25.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txtCity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>246, 194</value>
+  </data>
+  <data name="txtCity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 27</value>
+  </data>
+  <data name="txtCity.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;txtCity.Name" xml:space="preserve">
+    <value>txtCity</value>
+  </data>
+  <data name="&gt;&gt;txtCity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtCity.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtCity.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtAdress.Location" type="System.Drawing.Point, System.Drawing">
+    <value>352, 194</value>
+  </data>
+  <data name="txtAdress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>313, 27</value>
+  </data>
+  <data name="txtAdress.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;txtAdress.Name" xml:space="preserve">
+    <value>txtAdress</value>
+  </data>
+  <data name="&gt;&gt;txtAdress.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtAdress.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtAdress.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -3914,7 +3932,7 @@ Historia clínica Odontológica.
     <value>8, 20</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1058, 605</value>
+    <value>1058, 545</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 11pt</value>

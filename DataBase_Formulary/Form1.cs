@@ -57,8 +57,12 @@ namespace DataBase_Formulary
             //Connect to database
 #if debugVersion
             String insertChain = "INSERT INTO ClinicaDental (fechaR, Nombre, Edad, Sexo, Estado_Civil, FechaN, Direccion, Telefono, Motivo_Consulta, Nombre_Tutor, Telefono_Tutor, alergias, padecimientos, Borrado) VALUES" +
-                " ('" + txtFechaR.Text + "', '" + txtNombre.Text + "', '" + int.Parse(txtEdad.Text) + "', '" + txtSex.Text + "', '" + txtEstadoCivil.Text +
-                "', '" + txtFechaN.Text + "','" + txtAddress.Text + "','" + txtTelefono.Text + "', '" + txtDescription.Text + "','" + tutorTxtBox.Text + "', '" + tutorTelTxtBox.Text + "', '" + txtAllergies.Text + "', '" + ailments + "', 0)";
+                " ('" + txtFechaR.Text + "', '" + txtNombre.Text + "', '" + int.Parse(txtEdad.Text) +
+                "', '" + txtSex.Text + "', '" + txtEstadoCivil.Text +
+                "', '" + txtFechaN.Text + 
+                "','" + txtMunicipio.Text+ ", " + txtCity.Text + ", " + txtAdress.Text + 
+                "','" + txtTelefono.Text + "', '" + txtDescription.Text + "','" + tutorTxtBox.Text + 
+                "', '" + tutorTelTxtBox.Text + "', '" + txtAllergies.Text + "', '" + ailments + "', 0)";
 #elif realeseVersion
             String insertChain = "INSERT INTO pacientes (fechaR, Nombre, Edad, Sexo, Estado_Civil, FechaN, Direccion, Telefono, descripcion, Nombre_Tutor, Telefono_Tutor, alergias, padecimientos, Borrado) VALUES" +
                 " ('" + txtFechaR.Text + "', '" + txtNombre.Text + "', '" + int.Parse(txtEdad.Text) + "', '" + txtSex.Text + "', '" + txtEstadoCivil.Text +
@@ -77,7 +81,7 @@ namespace DataBase_Formulary
             String sex = "sexo: " + txtSex.Text + "\n";
             String marriegeState = "Estado civil: " + txtEstadoCivil.Text + "\n";
             String birthDay = "Fecha de nacimiento: " + txtFechaN.Text + "\n";
-            String adds = "Direccion: " + txtAddress.Text + "\n";
+            String adds = "Direccion: " + txtMunicipio.Text + ", " + txtCity.Text + ", " +txtAdress.Text+ "\n";
             String tel = "Telefono: " + txtTelefono.Text + "\n";
             String allergies = "Alergias: " + txtAllergies.Text  + "\n";
             String ailnes = "Padecimientos: " + ailments + "\n";
@@ -172,7 +176,7 @@ namespace DataBase_Formulary
             txtNombre.Text = "";
             txtEdad.Text = "";
             txtSex.Text = "";
-            txtAddress.Text = "";
+            txtAdress.Text = "";
             txtDescription.Text = "";
             txtFechaR.Text = "";
             txtFechaN.Text = "";
@@ -181,6 +185,11 @@ namespace DataBase_Formulary
             tutorTxtBox.Text = "";
             tutorTelTxtBox.Text = "";
             txtAllergies.Text = "";
+        }
+
+        private void label24_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

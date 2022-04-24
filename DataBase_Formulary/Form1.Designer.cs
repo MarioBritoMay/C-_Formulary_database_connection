@@ -46,11 +46,7 @@
             this.txtFechaN = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.txtAddress = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.txtTelefono = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
@@ -70,6 +66,11 @@
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.txtMunicipio = new System.Windows.Forms.TextBox();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.txtCity = new System.Windows.Forms.TextBox();
+            this.txtAdress = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -172,32 +173,10 @@
             resources.ApplyResources(this.label3, "label3");
             this.label3.Name = "label3";
             // 
-            // txtAddress
-            // 
-            this.txtAddress.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.txtAddress.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower;
-            resources.ApplyResources(this.txtAddress, "txtAddress");
-            this.txtAddress.Name = "txtAddress";
-            // 
             // label12
             // 
             resources.ApplyResources(this.label12, "label12");
             this.label12.Name = "label12";
-            // 
-            // label13
-            // 
-            resources.ApplyResources(this.label13, "label13");
-            this.label13.Name = "label13";
-            // 
-            // label14
-            // 
-            resources.ApplyResources(this.label14, "label14");
-            this.label14.Name = "label14";
-            // 
-            // label15
-            // 
-            resources.ApplyResources(this.label15, "label15");
-            this.label15.Name = "label15";
             // 
             // label16
             // 
@@ -310,11 +289,45 @@
             this.checkBox3.Name = "checkBox3";
             this.checkBox3.UseVisualStyleBackColor = true;
             // 
+            // txtMunicipio
+            // 
+            this.txtMunicipio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            resources.ApplyResources(this.txtMunicipio, "txtMunicipio");
+            this.txtMunicipio.Name = "txtMunicipio";
+            // 
+            // label24
+            // 
+            resources.ApplyResources(this.label24, "label24");
+            this.label24.Name = "label24";
+            this.label24.Click += new System.EventHandler(this.label24_Click);
+            // 
+            // label25
+            // 
+            resources.ApplyResources(this.label25, "label25");
+            this.label25.Name = "label25";
+            // 
+            // txtCity
+            // 
+            this.txtCity.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            resources.ApplyResources(this.txtCity, "txtCity");
+            this.txtCity.Name = "txtCity";
+            // 
+            // txtAdress
+            // 
+            this.txtAdress.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            resources.ApplyResources(this.txtAdress, "txtAdress");
+            this.txtAdress.Name = "txtAdress";
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Menu;
+            this.Controls.Add(this.txtAdress);
+            this.Controls.Add(this.txtCity);
+            this.Controls.Add(this.label25);
+            this.Controls.Add(this.label24);
+            this.Controls.Add(this.txtMunicipio);
             this.Controls.Add(this.checkBox3);
             this.Controls.Add(this.checkBox2);
             this.Controls.Add(this.checkBox1);
@@ -334,11 +347,7 @@
             this.Controls.Add(this.label17);
             this.Controls.Add(this.txtTelefono);
             this.Controls.Add(this.label16);
-            this.Controls.Add(this.label15);
-            this.Controls.Add(this.label14);
-            this.Controls.Add(this.label13);
             this.Controls.Add(this.label12);
-            this.Controls.Add(this.txtAddress);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.txtFechaN);
@@ -383,11 +392,7 @@
         private System.Windows.Forms.TextBox txtFechaN;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txtAddress;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.TextBox txtTelefono;
         private System.Windows.Forms.Label label17;
@@ -407,6 +412,11 @@
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.CheckBox checkBox3;
+        private System.Windows.Forms.TextBox txtMunicipio;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.TextBox txtCity;
+        private System.Windows.Forms.TextBox txtAdress;
     }
 }
 
